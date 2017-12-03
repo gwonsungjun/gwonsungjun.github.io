@@ -2,8 +2,6 @@
 
 title: TEST
 
-categories : test
-
 tags: let's go, abc
 -------------------
 
