@@ -74,7 +74,7 @@ plugins:
 # Site Information Settings
 # ---------------------------------------------------------------
 
-# Put your favicon.ico into `assets/` directory.
+# Put your favicon.ico into `assets/` d5ㅏㅏ irectory.
 favicon: /assets/images/avatar.png
 
 # Set default keywords (Use a comma to separate)
@@ -380,7 +380,7 @@ han: false
 # Disqus
 disqus:
   enable: true
-  shortname:
+  shortname: springboot
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
