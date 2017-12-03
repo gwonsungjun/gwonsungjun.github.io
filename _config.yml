@@ -5,9 +5,9 @@
 
 # Site
 title: Sungjun .Dev
-subtitle:
+subtitle: Junior WEB Developer
 description:
-author: John Doe
+author: SungjunGwon
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: ko
 date_format: '%Y-%m-%d'
@@ -78,7 +78,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords:
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -117,8 +117,8 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
-  #about: /about/
+  categories: /categories/
+  about: /about/
   archives: /archives/
   tags: /tags/
   #sitemap: /sitemap.xml
@@ -227,7 +227,7 @@ social_icons:
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   Twitter: twitter
-  Weibo: weibo
+  #Weibo: weibo
 
 
 # Sidebar Avatar
@@ -255,8 +255,8 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right
-  position: left
-  #position: right
+  #position: left
+  position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
@@ -379,7 +379,7 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
+  enable: true
   shortname:
   count: true
   # hide comments (visitors need to click to load the comments)
