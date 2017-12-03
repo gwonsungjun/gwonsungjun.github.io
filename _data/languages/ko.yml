@@ -73,7 +73,7 @@ cheers:
   great: great
   excellent: excellent
 
-keep_on: keep_on
+keep_on: ~ keep_on
 
 symbol:
   comma: ', '
