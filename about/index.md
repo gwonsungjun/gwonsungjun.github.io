@@ -9,8 +9,8 @@ Introduce
 
 Career
 ==========    
-2017.09 ~ **Web Devloper at 12cm**
-2017.03 ~ 2017.08  **Java education at KITRI**
+2017.09 ~ **Web Devloper at 12cm**  
+2017.03 ~ 2017.08  **Java education at KITRI**  
 2011.02 ~ 2017.02  **The Department of Inofrmation Security at TU**
 
 Interest
