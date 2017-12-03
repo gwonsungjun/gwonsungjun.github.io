@@ -1,10 +1,16 @@
 ---
 
-title: TEST
+title: 'Test'  
+layout: post  
+tags :  
+- OS  
+- Thread
 
-tags: let's go, abc
--------------------
+category: OS
+------------
 
 시작전 준비단계
+===============
 
 계획 : OS - Process & Thread
+----------------------------
