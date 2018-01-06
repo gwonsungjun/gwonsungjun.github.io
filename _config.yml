@@ -214,7 +214,9 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
   GitHub: https://github.com/gwonsungjun
-
+  Twitter: https://twitter.com/kwen5600
+  Stackoverflow : https://stackoverflow.com/users/8965178/sungjungwon?tab=profile
+  
 
 # Social Links Icons
 # Icon Mapping:
@@ -226,7 +228,8 @@ social_icons:
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
-  #Twitter: twitter
+  Twitter: twitter
+  Stackoverflow : stackoverflow
   #Weibo: weibo
 
 
