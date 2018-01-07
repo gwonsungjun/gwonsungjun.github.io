@@ -11,6 +11,7 @@ My name is Sungjun Gwon. I'm a developer working in Korea Pangyo.
 I work on Web development, both back-end and front-end.
 
 ---
+
 Skill Set
 ==========
 - Java, JavaScript  
@@ -21,6 +22,7 @@ Skill Set
 - Soft Skill
 
 ---
+
 Interest
 ==========
 - Unmanaged languages (C)
@@ -32,8 +34,9 @@ Interest
 - Machine learning
 - interest in reading
 ---
+
 Work Experience
-==========    
+==========     
 2017.09 ~ **Web Devloper at 12cm**
 - Technologies : Java, Spring, MyBatis, Mysql, AWS ...
 ---
