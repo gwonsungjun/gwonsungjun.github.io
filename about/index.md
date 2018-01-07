@@ -3,14 +3,15 @@ title: about
 layout: page
 ---
 
+
+---
+
 Introduce - Gwon Sungjun
 ==========
 
-- My name is Sungjun Gwon. I'm a developer working in Korea Pangyo.
+- My name is Sungjun Gwon. I'm a developer working in Korea Pangyo. <br />I work on Web development, both back-end and front-end.
 
-- I work on Web development, both back-end and front-end.
-
----
+_ _ _
 
 Skill Set
 ==========
@@ -21,7 +22,7 @@ Skill Set
 - Ubuntu
 - Soft Skill
 
----
+_ _ _
 
 Interest
 ==========
@@ -34,21 +35,21 @@ Interest
 - Machine learning
 - interest in reading
 
----
+_ _ _
 
 Work Experience
 ==========     
-2017.09 ~ **Web Devloper at 12cm**
-- Technologies : Java, Spring, MyBatis, Mysql, AWS ...
+* 2017.09 ~ **Web Devloper at 12cm**
+  * Technologies : Java, Spring, MyBatis, Mysql, AWS ...
 
----
+_ _ _
 
 Experiences (on the anvil)
 =========
 - [Community] ;
 - [Project] ;
 
----
+_ _ _
 
 Personality
 =========
@@ -56,7 +57,7 @@ Personality
 - Good Communication
 - Self-development
 
----
+_ _ _ 
 
 Contacts
 =========
