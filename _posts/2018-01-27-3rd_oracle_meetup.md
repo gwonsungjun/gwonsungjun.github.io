@@ -6,7 +6,7 @@ tags :
 category: seminar
 ---
 
-Oracle Developer Meetup | Serverless Computing
+Oracle Developer Meetup - Serverless Computing
 
 ---
 
@@ -38,7 +38,7 @@ Oracle Developer Meetup | Serverless Computing
 컨테이너
 
 > **서버리스 환경**
-애플리케이션
+애플리케이션 
 
 <br/>
 

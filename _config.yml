@@ -215,8 +215,6 @@ font:
 social:
   GitHub: https://github.com/gwonsungjun
   Twitter: https://twitter.com/kwen5600
-  Stackoverflow : https://stackoverflow.com/users/8965178/sungjungwon?tab=profile
-  Facebook : https://www.facebook.com/sungjun.gwon
 
 # Social Links Icons
 # Icon Mapping:
@@ -229,7 +227,6 @@ social_icons:
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   Twitter: twitter
-  Facebook: facebook
   #Weibo: weibo
 
 
