@@ -44,7 +44,7 @@ Work Experience
 
 _ _ _
 
-Experiences (on the anvil)
+Experiences (Preparing)
 =========
 - [Community] ;
 - [Project] ;
@@ -57,12 +57,11 @@ Personality
 - Good Communication
 - Self-development
 
-_ _ _ 
+_ _ _
 
 Contacts
 =========
 - [GitHub](https://github.com/gwonsungjun)
 - [Twitter](https://twitter.com/kwen5600)
 - [Mail](sungjunpizz@gmail)
-- [Facebook](https://www.facebook.com/sungjun.gwon)
 - [TIL](https://github.com/gwonsungjun/TIL)
