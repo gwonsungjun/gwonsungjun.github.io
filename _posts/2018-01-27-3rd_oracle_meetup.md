@@ -10,7 +10,7 @@ Oracle Developer Meetup | Serverless Computing
 
 ---
 
-**[3rd] Oracle Developer Meetup | Serverless Computing과 친해지기 세미나에 다녀왔습니다.**
+### [3rd] Oracle Developer Meetup | Serverless Computing과 친해지기 세미나에 다녀왔습니다.
 
 코드가 실행되는 시스템에 대한 생각을 접고 창의적인 코드 개발에만 집중하자. 최근 가장 뜨거운 화두인 ‘Serverless Computing’ 의 장점과 아키텍쳐, 실제 활용 사례를 알아보고, 실습까지 한번에 하는 시간을 가졌습니다.
 
@@ -24,11 +24,12 @@ Oracle Developer Meetup | Serverless Computing
 - 시스템에 관해 신경 쓰지 않음
 - 서비스 준비시간이 매우 빠름
 - 사용되는 시간만 지불
+
 > **일반 환경**
 애플리케이션
 라이브러리
 컨테이너
-실행환경
+실행환경  
 운영시스템
 
 > **클라우드 환경**
@@ -41,7 +42,7 @@ Oracle Developer Meetup | Serverless Computing
 
 <br/>
 
-**서버리스 아키텍처의 중심 - Function** 
+**서버리스 아키텍처의 중심 - Function**
 - 애플리케이션 아키텍쳐 - Monolithic application -> Microservice application -> function (가장 작은 단위의 서비스)
 - function 단위로 서비스 ( oracle 제외 서버리스 아키텍처의 중심 - 다른 벤더들도 다 같음)
 
