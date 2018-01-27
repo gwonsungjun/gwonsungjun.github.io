@@ -29,7 +29,7 @@ Oracle Developer Meetup - Serverless Computing
 애플리케이션
 라이브러리
 컨테이너
-실행환경  
+실행환경
 운영시스템
 
 > **클라우드 환경**
@@ -38,7 +38,7 @@ Oracle Developer Meetup - Serverless Computing
 컨테이너
 
 > **서버리스 환경**
-애플리케이션 
+애플리케이션
 
 <br/>
 
