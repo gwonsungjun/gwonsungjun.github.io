@@ -9,12 +9,12 @@ category: seminar
 Oracle Developer Meetup | Serverless Computing
 
 ---
+
 **[3rd] Oracle Developer Meetup | Serverless Computing과 친해지기 세미나에 다녀왔습니다.**
 
 코드가 실행되는 시스템에 대한 생각을 접고 창의적인 코드 개발에만 집중하자. 최근 가장 뜨거운 화두인 ‘Serverless Computing’ 의 장점과 아키텍쳐, 실제 활용 사례를 알아보고, 실습까지 한번에 하는 시간을 가졌습니다.
 
 ### 13:00-13:50 | [Overview] Serverless Computing 친해지기 (한국오라클 김종규 컨설턴트)
-<br/>
 
 **서버리스란 ?**
 - 기준은 개발자다.
@@ -41,8 +41,7 @@ Oracle Developer Meetup | Serverless Computing
 
 <br/>
 
-**서버리스 아키텍처의 중심 - Function**
-
+**서버리스 아키텍처의 중심 - Function** 
 - 애플리케이션 아키텍쳐 - Monolithic application -> Microservice application -> function (가장 작은 단위의 서비스)
 - function 단위로 서비스 ( oracle 제외 서버리스 아키텍처의 중심 - 다른 벤더들도 다 같음)
 
@@ -68,8 +67,6 @@ Oracle Developer Meetup | Serverless Computing
 
 ### 14:00-15:20 | [Special Session] 개발자를 위한 JavaOne 2017 업데이트 2탄 - Enhancement 중심으로 (양수열 Java Champion, Oracle ACE)
 
-<br/>
-
 - 모든 나라 중 개발자 컨퍼런스 비용이 가장 값싼 곳이 우리나라다.(많이 참여하자!)
 - javaOne 2017 컨퍼런스에 대한 소개  - ex)1,화성탐사도 자바로..., 2,주제 - Monolithic  vs MicroServices 를 똥에 비유하며 재밌게 묘사하기도..(해외 컨퍼런스는 국내의 컨퍼런스의 딱딱함과 다르게 재미있게 진행한다는 말)
 
@@ -92,14 +89,11 @@ Oracle Developer Meetup | Serverless Computing
 - Remove the jhat tool
 
 **요약**
-
 - 상당히 많은 큰 변화를 겪음
 - 장단점이 많지만.. 하위호환성을 유지하기 힘들어져서 논란이 많다고 생각함.
 - 7->8은 랭귀지 적인 이슈가 많이 컸음. 8->9로 간다해서 람다 function 제한이라던 가는 없고 증분이라고 생각하라.
 
 ### 15:30-16:30 | [Hands-On] Fn Project를 이용한 Serverless Computing 실습 (한국오라클 김종규 컨설턴트)
-
-<br/>
 
 : Docker 기반의 Serverless 개발 플랫폼인 Fn Project를 통해 Serverless Computing의 처음 단계를 실습하는 시간.
 
@@ -107,9 +101,7 @@ Oracle Developer Meetup | Serverless Computing
 - [fnproject 실습을 위한 한글 문서](https://github.com/fnproject/fn)
 - fnproject 실습을 위한 한글문서에 적힌 내용을 순서대로 실습하는 시간을 가짐.
 
-###후기
-
-<br/>
+### 후기
 
 serverless가 뜨거운 감자인 건 알았지만 어떤 것을 의미하는지 의문만 품고 있었습니다. 하지만 이번 세미나를 통해 완벽하게는 아니지만 serverless가 어떤 의미 인지는 대략적으로 감을 잡을 수 있었던 좋은 기회였던 것 같습니다. 또한, java9에 대해 좋은 정보를 얻게 돼서 기쁩니다.
 이 세미나를 통해 도커와 서버리스, java9 등에 대해서 좀 더 공부를 해보고 싶다는 마음이 들었습니다.
