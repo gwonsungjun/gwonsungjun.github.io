@@ -11,7 +11,7 @@ Windows 10 Home - Docker 설치
 ---
 
 ### Windows 10 Home에서 Docker 설치 하기    
-Docker Community Edition for Windows는 Windows 10 home에서 사용할 수 없다.
+Docker Community Edition for Windows는 Windows 10 home에서 사용할 수 없다.(Windows 10 pro 이상에서 가능)
 이유는 Windows에서 Docker를 사용하려면  Hyper-V 가 필요한데 Windows 10 home에는  Hyper-V (ms에서 만든 가상화 SW이며 Docker를 Windows 환경에서 VirtualBox 없이 Native하게 돌아가도록 해준다) 를 지원하지 않기 때문이다.  
 
 도커는 리눅스에서만 사용 가능한 가상화 컨테이너이다. 따라서 윈도우나 맥 OS를 사용하는 경우에는 오라클 버추얼박스(VirtualBox) 등의 저수준 가상화 소프트웨어로 리눅스 운영체제를 가진 가상 컴퓨터를 만들어야지만 도커를 쓸 수 있다.  
@@ -33,7 +33,7 @@ Virtualization은 반드시 사용가능 상태이어야 한다.(Virtualization�
 
 ![Virtualization은](/assets/images/usingimages/DockerInstallImage/dockerInstall2.PNG)
 
-**virtual box가 설치되어있다면 체크를 해제하고 설치되어 있지 않다면 체크를 해줘야한다.(Git 포함) - Next>**
+**virtual box가 설치되어있다면 체크를 해제하고 설치되어 있지 않다면 체크를 해줘야한다.(Git도 마찬가지) - Next>**
 
 ![Virtualization은](/assets/images/usingimages/DockerInstallImage/dockerInstall3.PNG)
 
@@ -49,7 +49,7 @@ Virtualization은 반드시 사용가능 상태이어야 한다.(Virtualization�
 
 ![Virtualization은](/assets/images/usingimages/DockerInstallImage/dockerInstall6.PNG)
 
-**위 화면을 확인할 수 있다**
+**위 화면을 확인할 수 있다. Virtualbox내에 default라는 vm이 아래와 같이 돌고 있으면 된다.**
 
 ![Virtualization은](/assets/images/usingimages/DockerInstallImage/dockerInstall7.PNG)
 
@@ -66,8 +66,11 @@ docker hub는 docker 이미지들을 등록하고 공유할 수 있는 서비스
 
 ![Virtualization은](/assets/images/usingimages/DockerInstallImage/dockerInstall11.PNG)
 
-**그리고 Kitematic를 확인하면 방금 실행한 Docker container가 활성화 되어 있는 것을 확인할 수 있다.**
+**그리고 Kitematic를 확인하면 방금 실행한 Docker container가 활성화 되어 있는 것을 확인할 수 있다.**  
+
+이상 Windows 10 Home에서 Docker 설치를 마친다.
 
 ### Link
 <http://pseg.or.kr/pseg/infoinstall/6076>  
-<http://sukill.tistory.com/1>
+<http://sukill.tistory.com/1>  
+<https://docker.gnupark.com/bbs/board.php?bo_table=docker&wr_id=69>  
