@@ -35,4 +35,4 @@ But. 5번 데브옵스에서 노옵스로 부분을 읽고 좀 더 생각을 하
 8번 컨테이너의 중요성
 > 컨테이너는 마이크로서비스 아키텍처, 클라우드 네이티브 앱, 서버리스 기능, 그리고 데브옵스 등 현대적 개발 트렌드를 쌓아 올리는 데 필수적인 구성 요소로 기능하게 될 것이다  
 
-출처 : [ Siddhartha Agarwal | InfoWorld](http://www.itworld.co.kr/news/107761?page=0,0)
+출처 : [ Siddhartha Agarwal-InfoWorld](http://www.itworld.co.kr/news/107761?page=0,0)
