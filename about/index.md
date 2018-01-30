@@ -18,7 +18,7 @@ Skill Set
 - Java, JavaScript  
 - Spring Framework
 - Mysql, AWS
-- Vim, Git
+- Vim, Git(+Svn)
 - Ubuntu
 - Soft Skill
 
@@ -32,7 +32,9 @@ Interest
 - TDD, Automation
 - OOP, Refactoring, Design patterns
 - Docker
-- Machine learning
+- Serverless
+- Machine learning, Deep learning
+- Blockchain
 - interest in reading
 
 _ _ _
