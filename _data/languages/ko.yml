@@ -66,14 +66,14 @@ state:
   categories: 카테고리
 
 cheers:
-  um: um
-  ok: OK
-  nice: nice
-  good: good
-  great: great
-  excellent: excellent
+  um: Thank you for visiting
+  ok: Thank you for visiting
+  nice: Thank you for visiting
+  good: Thank you for visiting
+  great: Thank you for visiting
+  excellent: Thank you for visiting
 
-keep_on: ~ keep_on
+keep_on:
 
 symbol:
   comma: ', '
