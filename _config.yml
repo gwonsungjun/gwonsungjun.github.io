@@ -216,6 +216,7 @@ font:
 social:
   GitHub: https://github.com/gwonsungjun
   Twitter: https://twitter.com/kwen5600
+  TIL : https://github.com/gwonsungjun/TIL
 
 # Social Links Icons
 # Icon Mapping:
@@ -228,6 +229,7 @@ social_icons:
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   Twitter: twitter
+  TIL : gitHub
   #Weibo: weibo
 
 
