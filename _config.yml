@@ -5,7 +5,7 @@
 
 # Site
 title: Sungjun .Dev
-subtitle: 나의 기억 저장소
+subtitle: 나의 기억 저장소 :)
 description:
 author: SungjunGwon
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
@@ -83,7 +83,7 @@ keywords:
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: https://gwonsungjun.github.io/
 
 # Specify the date when the site was setup
 #since: 2015
@@ -174,19 +174,19 @@ font:
     # external: true will load this font family from host.
     external: true
     family: Lato
-    size: 18
+    size: 18px
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
   # Fallback to `global` font settings.
   headings:
     external: true
-    family:
+    family: Lato
 
   # Font settings for posts
   # Fallback to `global` font settings.
   posts:
     external: true
-    family:
+    family: Lato
 
   # Font settings for Logo
   # Fallback to `global` font settings.
@@ -266,9 +266,9 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  display: post
+  #display: post
   #display: always
-  #display: hide
+  display: hide
   #display: remove
 
   # Sidebar offset from top menubar in pixels.
@@ -313,7 +313,7 @@ auto_excerpt:
 post_meta:
   item_text: true
   created_at: true
-  updated_at: true
+  updated_at: false
   categories: true
 
 # Post wordcount display settings
@@ -465,7 +465,7 @@ facebook_sdk:
 # This plugin depends on Facebook SDK.
 # If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
 facebook_comments_plugin:
-  enable: false
+  enable: true
   num_of_posts: 10  # min posts num is 1
   width: 100%       # default width is 550px
   scheme: light     # default scheme is light (light or dark)
@@ -529,7 +529,7 @@ baidu_push: false
 # API Documentation:
 # https://developers.google.com/google-apps/calendar/v3/reference/events/list
 calendar:
-  enable: true
+  enable: false
   calendar_id: <required>
   api_key: <required>
   orderBy: startTime
