@@ -10,7 +10,7 @@
     {% assign post_class = post_class | append: ' ' | append: 'post-sticky' %}
   {% endif %}
 
-  <article class="{{ post_class }}" itemscope itemtype="http://schema.org/Article" style="font-size:18px">
+  <article class="{{ post_class }}" itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="{{ post.url | absolute_url }}">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
