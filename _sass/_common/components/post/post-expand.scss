@@ -2,11 +2,12 @@
 
 .posts-expand {
   padding-top: 40px;
-  @include mobile() { font-size: $font-size-headings-smaller; }
+  @include mobile() { font-size: 14px; }
 }
 
 @media (max-width: 767px) {
   .posts-expand {
+    font-size: 14px;
     margin: 0 20px;
   }
 
