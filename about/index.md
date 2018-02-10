@@ -6,7 +6,7 @@ layout: page
 
 ---
 
-Introduce - Gwon Sungjun
+Introduce - Minimalist, Gwon Sungjun
 ==========
 
 - My name is Sungjun Gwon. I'm a developer working in Korea Pangyo. <br />I work on Web development, both back-end and front-end.

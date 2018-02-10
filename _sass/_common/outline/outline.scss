@@ -10,6 +10,7 @@ html, body { height: 100%; }
 .container {
   position: relative;
   min-height: 100%;
+  @include mobile() { font-size: $font-size-headings-smaller; }
 }
 
 
@@ -35,9 +36,10 @@ html, body { height: 100%; }
   @include desktop-large() {
     .container & { width: $content-desktop-large; }
   }
-}
-.main-inner section {
-  text-align: center;
+
+  section{
+    text-align: center;
+  }
 }
 
 
