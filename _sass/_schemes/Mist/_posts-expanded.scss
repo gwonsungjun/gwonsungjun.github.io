@@ -28,7 +28,6 @@
   .post-title:hover:before { background: $black-deep; }
 
   .post-body img { margin: 0; }
-  .post-body p {text-align: center;}
   .post-body{
     @include mobile() { font-size: $font-size-headings-smaller; }
   }
