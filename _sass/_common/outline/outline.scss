@@ -36,10 +36,6 @@ html, body { height: 100%; }
   @include desktop-large() {
     .container & { width: $content-desktop-large; }
   }
-
-  section{
-    text-align: center;
-  }
 }
 
 
