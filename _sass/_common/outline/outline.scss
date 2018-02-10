@@ -36,6 +36,9 @@ html, body { height: 100%; }
     .container & { width: $content-desktop-large; }
   }
 }
+.main-inner section {
+  text-align: center;
+}
 
 
 // Footer Section
