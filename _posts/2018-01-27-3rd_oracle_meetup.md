@@ -6,7 +6,7 @@ tags :
 category: seminar
 ---
 
-Oracle Developer Meetup - Serverless Computing
+- Oracle Developer Meetup - Serverless Computing
 
 ---
 

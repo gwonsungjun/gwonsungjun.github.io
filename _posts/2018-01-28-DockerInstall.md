@@ -6,7 +6,7 @@ tags :
 category: How to install
 ---
 
-Windows 10 Home - Docker 설치
+- Windows 10 Home - Docker 설치
 
 ---
 
