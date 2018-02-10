@@ -29,6 +29,9 @@
 
   .post-body img { margin: 0; }
   .post-body p {text-align: center;}
+  .post-body{
+    @include mobile() { font-size: $font-size-headings-smaller; }
+  }
 
   .post-tags {
     text-align: left;
