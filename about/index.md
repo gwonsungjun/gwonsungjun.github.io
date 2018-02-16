@@ -15,12 +15,44 @@ _ _ _
 
 Skill Set
 ==========
-- Java, JavaScript  
-- Spring Framework
-- Mysql, AWS
-- Vim, Git(+Svn)
-- Ubuntu
+
+##Back-End
+- Java  
+- Spring / Spring Boot
+- Mybatis
+- Ant / Maven / Gradle
+- Tomcat
+- JSP
+- Ubuntu (Linux)
+
+##Front-end
+- JavaScript
+- jQuery
+- html5
+- css3
+
+##Database
+- Mysql
+- Oracle
+
+##Etc
+- AWS
+- Git, Github, SVN
+- Vim
+- Eclipse / Visual Studio Code / Atom
 - Soft Skill
+
+## In progress
+- Golang
+- Docker
+- Python
+- Azure
+- Hibernate
+- Nginx
+- RESTful API
+- Travis CI
+- IntelliJ
+- react.js
 
 _ _ _
 
@@ -41,8 +73,8 @@ _ _ _
 
 Work Experience
 ==========     
-* 2017.09 ~ **Web Devloper at 12cm**
-  * Technologies : Java, Spring, MyBatis, Mysql, AWS ...
+- 2017.09 ~ **Web Devloper at 12cm Lab**
+  - Technologies : Java, Spring, MyBatis, Mysql, AWS, Ubuntu, html, css, javaScript, jQuery, Blockchain (Golang), Deep learning, DevOps
 
 _ _ _
 
