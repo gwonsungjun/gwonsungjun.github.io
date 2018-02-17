@@ -16,7 +16,7 @@ _ _ _
 Skill Set
 ==========
 
-##Back-End
+## Back-End
 - Java  
 - Spring / Spring Boot
 - Mybatis
@@ -25,17 +25,17 @@ Skill Set
 - JSP
 - Ubuntu (Linux)
 
-##Front-end
+## Front-end
 - JavaScript
 - jQuery
 - html5
 - css3
 
-##Database
+## Database
 - Mysql
 - Oracle
 
-##Etc
+## Etc
 - AWS
 - Git, Github, SVN
 - Vim
@@ -53,6 +53,7 @@ Skill Set
 - Travis CI
 - IntelliJ
 - react.js
+- Redis
 
 _ _ _
 
@@ -78,10 +79,12 @@ Work Experience
 
 _ _ _
 
-Experiences (Preparing)
+Experiences
 =========
-- [Community] ;
-- [Project] ;
+- [Community Activities]
+  - GDG Campus 2018 Meetup, 2018.02.11
+  - Oracle Developer Meetup - Serverless Computing, 2018.01.27
+- [Personal Project] developing...  
 
 _ _ _
 
