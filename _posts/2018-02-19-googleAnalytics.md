@@ -39,8 +39,8 @@ google 계정이 있다면 사용가능하다.
 
 ![Google analytics6](/assets/images/usingimages/GoogleAnalytics/6.png)
 
-이제부터 해당 블로그에 접속한 사용자들을 분석할 수 있게 되었다.
-다음번에는 Google Search Console 설정과 Google Analytics와의 연동 방법을 포스팅할 것이다.
+- 이제부터 해당 블로그에 접속한 사용자들을 분석할 수 있게 되었다.   
+- 다음번에는 Google Search Console 설정과 Google Analytics와의 연동 방법을 포스팅할 것이다.
 
 ### Link
 <https://rextarx.github.io/jekyll/2017/02/03/Applying_Google_Analytics_to_a_blog_using_Jekyll/>
