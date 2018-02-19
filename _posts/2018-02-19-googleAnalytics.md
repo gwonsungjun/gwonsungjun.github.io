@@ -1,12 +1,12 @@
 ---
-title: 'Google Analytics'  
+title: 'Jekyll, Google Analytics 사용법'  
 layout: post  
 tags :  
 - Google Analytics
 category: jekyll
 ---
 
-- Jekyll, Google Analytics 사용법
+- Jekyll, Google Analytics
 
 ---
 
