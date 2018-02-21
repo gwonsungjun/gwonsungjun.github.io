@@ -28,8 +28,12 @@ category: Deep learning
 - 파이썬
 - 텐서플로   
 
-## - 아래는 앞으로 참고할 자료들.
+### - 아래는 앞으로 참고할 자료들.
 (많은 자료를 찾아봤지만, 정답은 없는 것 같습니다. 한번 부딪혀보면서 선별해 나가겠습니다!)
+1. 딥러닝 공부법 소개 블로그
+2. 강좌
+3. 공부자료
+4. 추천 책   
 
 ### 딥러닝 공부법 소개 블로그
 
@@ -70,5 +74,5 @@ category: Deep learning
 - [골빈해커의 3분 딥러닝](https://books.google.co.kr/books?id=GXg3DwAAQBAJ&pg=PA23&lpg=PA23&dq=%EB%94%A5%EB%9F%AC%EB%8B%9D+%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0&source=bl&ots=D6MV8V4u4I&sig=iEeSGOfXJS_g95qERUXepjUDpIk&hl=ko&sa=X&ved=0ahUKEwi91oPRjfzYAhVDX5QKHTP6BUIQ6AEIVjAI#v=onepage&q=%EB%94%A5%EB%9F%AC%EB%8B%9D%20%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0&f=false)
 - 기타등등
 
-### 마지막으로 딥러닝 공부법에 대해 정리가 너무 잘되있어서 공유.
+### 마지막으로 딥러닝 공부법에 대해 정리가 너무 잘되어있어서 공유.
 <https://www.facebook.com/bookworm.kr/posts/753531321476548>
