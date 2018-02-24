@@ -2,8 +2,8 @@
 title: '2018 GDG Campus Korea 새해 밋업'  
 layout: post  
 tags :  
-- Deep learning
-category: Deep learning
+- Meetup
+category: Meetup
 ---
 
 - 2018년 GDG(Google developer group)Campus Korea 새해 밋업(Meetup).
