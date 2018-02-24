@@ -1,5 +1,5 @@
 ---
-title: '2018 GDG Campus Korea 새해 밋업'  
+title: '2018 GDG Campus Korea 새해 밋업(수정중)'  
 layout: post  
 tags :  
 - Meetup
