@@ -133,7 +133,6 @@ menu:
 menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
-  title : home
   home: home
   about: user
   categories: th
