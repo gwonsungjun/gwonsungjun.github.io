@@ -30,9 +30,9 @@ category: java
 ### Gradle (ant + ivy + maven + gant의 합)
 
 > ant : flexibility / full control / chaining of targets   
- vy : dependency management   
- aven : convention over configuration / multimodule projects / extensibility via plugins   
- ant : Groovy DSL(Domain specific language) on top of Ant   
+ ivy : dependency management   
+ maven : convention over configuration / multimodule projects / extensibility via plugins   
+ gant : Groovy DSL(Domain specific language) on top of Ant   
 
 - Gradle Wrapper - 이미 존재하는 프로젝트를 새로운 환경에 설치할때 별도의 설치나 설정 과정없이 곧 바로 빌드할 수 있게 하기 위함.
 - gradlew - 유닉스용 실행 스크립트 (>gradle build x, >./gradlew build) - wrapper 사용
