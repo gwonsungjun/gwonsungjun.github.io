@@ -83,7 +83,7 @@ keywords:
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss: https://gwonsungjun.github.io/
+rss:
 
 # Specify the date when the site was setup
 #since: 2015
