@@ -1,5 +1,5 @@
 ---
-title: 'Oracle Developer Meetup'  
+title: '4rd Oracle Developer Meetup'  
 layout: post  
 tags :  
 - seminar, Oracle
@@ -10,11 +10,11 @@ category: seminar
 
 ---
 
-## [4rd] Oracle Developer Meetup | 미래의 Java와 손에 잡히는 Microservice! 세미나에 다녀왔습니다.
+# [4rd] Oracle Developer Meetup | 미래의 Java와 손에 잡히는 Microservice! 세미나에 다녀왔습니다.
 
 한국에서 가장 많이 사용하는 프로그래밍 언어는 자바라고 생각한다. 하지만 많은 사람들이 이제 자바는 그 수명을 다했다고 말한다. 정말 그런 것일까? 미래의 Java는 어떻게 변화할 것이고 어떤 방향으로 나아갈지에 대한 궁금증을 해소하기 위해 이번 세미나에 참여하게 되었다.
 
-## Java.next() - 우아한형제들 박성철님.
+# Java.next() - 우아한형제들 박성철님.
 
 먼저 자기소개가 이루어졌다.
 - 우아한 형제들의 인프라 서비스실을 담당
@@ -45,7 +45,7 @@ category: seminar
  - Valhalla: 값 타입 & 특화 제네릭
  - 기타 등등...
 
-### 첫번째 프로젝트, Amber
+## 첫번째 프로젝트, Amber
 - 자바 언어를 개선하는 프로젝트
 
 **지역변수_타입_추론(JEP-286)**
@@ -83,7 +83,7 @@ category: seminar
 - 솔직히 이 부분은 조금 이해하기 힘들었다. 자세한 예제는 아래 박성철님의 슬라이드쉐어 자료에서 확인하면서 이해하길 바람.
 
 
-### 두번째 프로젝트, vAhAllA(발할라)
+## 두번째 프로젝트, vAhAllA(발할라)
 - 자바 제네릭의 한계를 극복하고 참조 타입 때문에 발생하는 자바 성능을 개선
 
 **기존 자바 타입**
@@ -122,12 +122,12 @@ category: seminar
 - VCC & DVC
 
 
-### lOOm(룸)
+## 세번째 프로젝트, lOOm(룸)
 
 **화이버(Fiber)**
 - 동시성 프로그래밍을 누구나 할 수 있도록 (Rxjava 등을 사용하지 않아도~)
 
-## 후기
+# 후기
 
 아쉽지만 첫 번째 강의만 듣고 두 번째 Microservice 실습은 개인 사정으로 참석을 못 하였습니다..   
 이번 세미나는 근미래의 자바가 언어 관점에서 어떻게 변화가 될지, OpenJDK의 앰버(Amber), 바할라(Valhalla), 룸(Loom) 프로젝트를 중심으로 진는행 되었습니다.   
@@ -135,7 +135,7 @@ category: seminar
 앞으로 자바를 조금 더 열심히 공부해야겠다는 생각으로 이번 포스팅을 마치겠습니다.
 
 
-## Links
+# Links
 - https://www.slideshare.net/gyumee/javanext?qid=3af9457d-2ecf-45dc-a23a-32571bcfbd15&v=&b=&from_search=1
 
 > 본문의 내용은 제가 이해한 대로 작성하였기 때문에 틀린 부분이 있다면 댓글로 피드백을 부탁드리겠습니다. 감사합니다.
