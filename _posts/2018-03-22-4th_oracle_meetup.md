@@ -1,5 +1,5 @@
 ---
-title: '4rd Oracle Developer Meetup'  
+title: '4th Oracle Developer Meetup'  
 layout: post  
 tags :  
 - seminar, Oracle
@@ -10,7 +10,7 @@ category: seminar
 
 ---
 
-# [4rd] Oracle Developer Meetup | 미래의 Java와 손에 잡히는 Microservice! 세미나에 다녀왔습니다.
+# [4th] Oracle Developer Meetup | 미래의 Java와 손에 잡히는 Microservice! 세미나에 다녀왔습니다.
 
 한국에서 가장 많이 사용하는 프로그래밍 언어는 자바라고 생각한다. 하지만 많은 사람들이 이제 자바는 그 수명을 다했다고 말한다. 정말 그런 것일까? 미래의 Java는 어떻게 변화할 것이고 어떤 방향으로 나아갈지에 대한 궁금증을 해소하기 위해 이번 세미나에 참여하게 되었다.
 
