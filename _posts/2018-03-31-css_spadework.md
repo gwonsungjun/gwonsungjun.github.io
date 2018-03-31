@@ -41,7 +41,7 @@ category: css
 
 ```js
 var divHeight = document.getElementById('pop').getBoundingClientRect().height;
-                            document.body.style.height = divHeight+'px';
+document.body.style.height = divHeight+'px';
 ```
 
 해당 아이디의 div 태그의 height을 구하고 body에 구해진 height을 넣어서 body 사이즈를 변경한다.
