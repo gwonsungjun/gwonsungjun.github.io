@@ -29,7 +29,7 @@ category: css
 
 크롬에서 html table을 출력하고 스크롤을 내리다보니 중간에 끊겨서 보인다. 드래그하면 또 보이긴한다. 아래 그림을 보면 중간에 끊겨있는 것이 보인다.
 
-![htop](/assets/images/usingimages/css.png)
+![css](/assets/images/usingimages/css.png)
 
 그래서 크롬개발자도구로 디버깅해본 결과 body사이즈가 div 사이즈에 비해 작아서 출력을 못했다.(추측)   
 수동으로 body에 높이를 고정px style="height:10000px" 주니깐 잘 보인다.   
