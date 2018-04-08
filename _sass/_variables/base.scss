@@ -24,6 +24,7 @@ $blue         : #0684bd;
 $blue-deep    : #262a30;
 $orange       : #fc6423;
 $blue_link    : #1b6ec4;
+$green-light  : #1ee1b9;
 
 
 
@@ -35,10 +36,10 @@ $blue_link    : #1b6ec4;
 $text-color                   : $black-dim;
 
 // Global link color.
-$link-color                   : $black-light;
-$link-decoration-color        : $grey-light;
-$link-hover-color             : $blue_link;
-$link-decoration-hover-color  : $blue-deep;
+$link-color                   : $green-light;
+$link-decoration-color        : $green-light;
+$link-hover-color             : $green-light;
+$link-decoration-hover-color  : $green-light;
 
 // Global border color.
 $border-color                 : $grey-light;
