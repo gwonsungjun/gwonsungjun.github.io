@@ -10,7 +10,7 @@ category: Golang
 
 ---
 
-#Go 언어 개발 환경 설정 - Intellij (windows)
+# Go 언어 개발 환경 설정 - Intellij (windows)
 
 hyperledger fabric (Linux Foundation project) 소스를 보기 위해 IntelliJ에 Clone 하였는데 IntelliJ는 GO 언어 개발 환경을 default로 지원하지 않았다. 따라서 IntelliJ에 Go 언어 개발 환경을 설정하였고 아래 그 과정을 설명하였다.   
 크게 순서는 다음과 같다.
@@ -32,7 +32,7 @@ hyperledger fabric (Linux Foundation project) 소스를 보기 위해 IntelliJ�
 
 ## 환경설정 확인 및 SDK 정상 설치 확인
 
-### 환경설정 확인
+### -환경설정 확인
 
   - 제어판 -> 시스템 -> 고급 시스템 설정 -> 고급 -> 환경변수
   - 시스템 변수 -> Path 선택 후 -> 편집 클릭
@@ -40,7 +40,7 @@ hyperledger fabric (Linux Foundation project) 소스를 보기 위해 IntelliJ�
 
   ![go3](/assets/images/usingimages/intellijGo/go3.PNG)
 
-### SDK 설치 확인
+### -SDK 설치 확인
 
   - cmd -> go version : 아래 그림과 같이 버전이 출력되는지 확인
 
@@ -65,5 +65,5 @@ Intellij에서 Go 언어를 사용하기 위해서는 별도의 플러그인 설
 
  ![go6](/assets/images/usingimages/intellijGo/go6.PNG)
 
-##Links
+## Links
 [윈도우즈 Go 언어 개발환경 설정 (IntelliJ)](http://dog-paw.tistory.com/entry/%EC%9C%88%EB%8F%84%EC%9A%B0%EC%A6%88-Go-%EC%96%B8%EC%96%B4-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD-%EC%84%A4%EC%A0%95-IntelliJ)
