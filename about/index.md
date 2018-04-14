@@ -20,7 +20,7 @@ Skill Set
 - Java  
 - Spring / Spring Boot
 - Mybatis
-- Ant / Maven / Gradle
+- Gradle / Maven / Ant
 - Tomcat
 - JSP
 - Ubuntu (Linux)
@@ -37,23 +37,19 @@ Skill Set
 
 ## Etc
 - AWS
-- Git, Github, SVN
-- Vim
-- Eclipse / Visual Studio Code / Atom
+- Git / Github / GitLab / SVN
+- IntelliJ / Eclipse / Vim / Visual Studio Code / Atom
 - Soft Skill
 
 ## In progress
 - Golang
 - Docker
-- Python
-- Azure
-- Hibernate
+- JPA, Hibernate
 - Nginx
 - RESTful API
 - Travis CI
-- IntelliJ
-- react.js
-- Redis
+- Jenkins
+- Blockchain (hyperledger)
 
 _ _ _
 
@@ -61,7 +57,7 @@ Interest
 ==========
 - Unmanaged languages (C)
 - Python, Scala
-- Node.js, React.js
+- Node.js
 - TDD, Automation
 - OOP, Refactoring, Design patterns
 - Docker
@@ -69,19 +65,22 @@ Interest
 - Machine learning, Deep learning
 - Blockchain
 - interest in reading
+- Front-end Framework (vue.js, react.js)
+- Redis
 
 _ _ _
 
 Work Experience
 ==========     
 - 2017.09 ~ **Web Devloper at 12cm Lab**
-  - Technologies : Java, Spring, MyBatis, Mysql, AWS, Ubuntu, html, css, javaScript, jQuery, Blockchain (Golang), Deep learning, DevOps
+  - Technologies : Java, Spring, MyBatis, Mysql, AWS, GitLab, Ubuntu, html, css, javaScript, jQuery, Blockchain (Golang),DevOps
 
 _ _ _
 
 Experiences
 =========
 - [Community Activities]
+  - 9XD: Young, Wild Coders - Hello! New Face; The eleventh meeting, 2018.04.13
   - Oracle Developer Meetup - Future Java and the Microservice in Your Hands!, 2018.03.18
   - GDG Campus 2018 Meetup, 2018.02.11
   - Oracle Developer Meetup - Serverless Computing, 2018.01.27
@@ -99,7 +98,7 @@ _ _ _
 
 Contacts
 =========
-- [GitHub](https://github.com/gwonsungju  en)
+- [GitHub](https://github.com/gwonsungjun)
 - [Twitter](https://twitter.com/kwen5600)
 - [Mail](mailto:sungjunpizz@gmail)
 - [TIL](https://github.com/gwonsungjun/TIL)
