@@ -1,4 +1,19 @@
 .post-body {
+  a {
+    position: relative;
+    display: block;
+    line-height: 25px;
+    font-size: 14px;
+    color: $link-hover-color;
+    border-bottom: none;
+
+    &:hover {
+      color: $link-hover-color;
+      border-bottom: none;
+    }
+
+    &:active { top: 2px; }
+  }
   font-family: $font-family-posts;
   @include mobile() {
     word-break: break-word;
