@@ -2,7 +2,8 @@
 title: '4th Oracle Developer Meetup'  
 layout: post  
 tags :  
-- seminar, Oracle
+- seminar
+- oracle
 category: seminar
 ---
 
