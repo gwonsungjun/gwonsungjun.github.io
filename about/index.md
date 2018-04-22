@@ -80,6 +80,7 @@ _ _ _
 Experiences
 =========
 - [Community Activities]
+  - SPRING CAMP 2018 (with Coupang), 2018.04.21
   - 9XD: Young, Wild Coders - Hello! New Face; The eleventh meeting, 2018.04.13
   - Oracle Developer Meetup - Future Java and the Microservice in Your Hands!, 2018.03.18
   - GDG Campus 2018 Meetup, 2018.02.11
