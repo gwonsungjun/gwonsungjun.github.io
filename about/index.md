@@ -3,18 +3,11 @@ title: about
 layout: page
 ---
 
-
----
-
-Introduce - Minimalist, Gwon Sungjun
-==========
+# Introduce - Gwon Sungjun
 
 - My name is Sungjun Gwon. I'm a developer working in Korea Pangyo. <br />I work on Web development, both back-end and front-end.
 
-_ _ _
-
-Skill Set
-==========
+# Skill Set
 
 ## Back-End
 - Java  
@@ -51,10 +44,7 @@ Skill Set
 - Jenkins
 - Blockchain (hyperledger)
 
-_ _ _
-
-Interest
-==========
+## Interest
 - Unmanaged languages (C)
 - Python, Scala
 - Node.js
@@ -68,18 +58,16 @@ Interest
 - Front-end Framework (vue.js, react.js)
 - Redis
 
-_ _ _
+## My GitHub Contributions
 
-Work Experience
-==========     
+![Github Image](https://ghchart.rshah.org/gwonsungjun)
+
+# Work Experience
 - 2017.09 ~ **Web Devloper at 12cm Lab**
   - Technologies : Java, Spring, MyBatis, Mysql, AWS, GitLab, Ubuntu, html, css, javaScript, jQuery, Blockchain (Golang),DevOps
 
-_ _ _
-
-Experiences
-=========
-- [Community Activities]
+# Experiences
+- **[Community Activities]**
   - SPRING CAMP 2018 (with Coupang), 2018.04.21
   - 9XD: Young, Wild Coders - Hello! New Face; The eleventh meeting, 2018.04.13
   - Oracle Developer Meetup - Future Java and the Microservice in Your Hands!, 2018.03.18
@@ -87,18 +75,12 @@ Experiences
   - Oracle Developer Meetup - Serverless Computing, 2018.01.27
 - [Personal Project] developing...  
 
-_ _ _
-
-Personality
-=========
+# Personality
 - passion
 - Good Communication
 - Self-development
 
-_ _ _
-
-Contacts
-=========
+# Contacts
 - [GitHub](https://github.com/gwonsungjun)
 - [Twitter](https://twitter.com/kwen5600)
 - [Mail](mailto:sungjunpizz@gmail)
