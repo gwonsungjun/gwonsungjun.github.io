@@ -14,11 +14,12 @@ category: jenkins
 
 ## Installation
 
-- 아래 명령 순서대로 실행
->   - wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key &#124; sudo apt-key add &#45;   
->  - sudo sh -c &#39;echo deb http://pkg.jenkins.io/debian-stable binary&#47; &#62; /etc/apt/sources.list.d/jenkins.list&#39;
->  - sudo apt-get update
->  - sudo apt-get install -y jenkins
+```js
+- sudo wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+- sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+- sudo apt-get update
+- sudo apt-get install -y jenkins
+```
 
 ## Upgrade
 - sudo apt-get update
