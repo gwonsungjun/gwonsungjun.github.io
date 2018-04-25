@@ -2,7 +2,8 @@
 title: 'Go 언어 개발 환경 설정 - Intellij (windows)'  
 layout: post  
 tags :  
-- Golang, intellij
+- Golang
+- intellij
 category: Golang
 ---
 
