@@ -39,7 +39,7 @@ category: intellij
 ### 2. Image 업로드, 커스터마이징 후 적용
 ![intellijTheme4](/assets/images/usingimages/intellijTheme/intellijTheme4.png)
 
-### 8. 결과화면
+## 결과화면
 ![intellijTheme5](/assets/images/usingimages/intellijTheme/intellijTheme5.png)
 
 ## Links
