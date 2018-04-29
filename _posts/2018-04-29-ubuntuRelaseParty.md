@@ -10,7 +10,8 @@ category: seminar
 - Ubuntu 18.04 Release Party Review :)
 
 ---
-# Ubuntu 18.04 Release Party @Seoul 2018.04.28 (DCAMP)
+# Ubuntu 18.04 Release Party @Seoul 2018.04.28 (DCAMP)    
+
 
 # Intro
 Ubuntu 18.04가 Release 되었고 마침 Ubuntu 18.04 Release Party를 진행한다는 소식을 접하고 18.04에서는 어떤 변화가 생겼는지 정보를 얻기 위해 참여하게 되었다.
@@ -21,7 +22,7 @@ Ubuntu 18.04가 Release 되었고 마침 Ubuntu 18.04 Release Party를 진행한
 - SELinux
 - Cron
 - Nohup
-- Tmux || screen == BYOBU
+- Tmux or screen == BYOBU
 
 ### SELinux
 - the debian administrator's handbook
@@ -30,14 +31,14 @@ Ubuntu 18.04가 Release 되었고 마침 Ubuntu 18.04 Release Party를 진행한
 
 ### Cron
 - airbnb airflow 등의 cron을 대체 할 프로젝트가 많음
-- 36 2 * * 7 root /usr/local/sbin/~~
+- 36 2 * * 7 root /usr/local/sbin/backup.sh
   - 36 : 분
   - 2 : 시
   - 첫번째 * : 일
   - 두번째 * : 월
   - 7 : 요일
   - root : 권한
-  - /usr/local/sbin/~~ /usr : 아래를 실행
+  - /usr/local/sbin/backup.sh : 아래를 실행
 ![cron](/assets/images/usingimages/ubuntu/cron.png)
 
 - crontab
