@@ -68,6 +68,7 @@ layout: page
 
 # Experiences
 - **[Community Activities]**
+  - Ubuntu 18.04 Release Party in Seoul, 2018.04.28
   - SPRING CAMP 2018 (with Coupang), 2018.04.21
   - 9XD: Young, Wild Coders - Hello! New Face; The eleventh meeting, 2018.04.13
   - Oracle Developer Meetup - Future Java and the Microservice in Your Hands!, 2018.03.18
