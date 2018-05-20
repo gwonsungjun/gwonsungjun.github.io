@@ -12,6 +12,7 @@ layout: page
 ## Back-End
 - Java  
 - Spring / Spring Boot
+- JPA, Hibernate
 - Mybatis
 - Gradle / Maven / Ant
 - Tomcat
@@ -37,7 +38,6 @@ layout: page
 ## In progress
 - Golang
 - Docker
-- JPA, Hibernate
 - Nginx
 - RESTful API
 - Travis CI
@@ -68,6 +68,7 @@ layout: page
 
 # Experiences
 - **[Community Activities]**
+  - Oracle Developer Meetup - Understanding Kafka, 2018.05.19
   - Ubuntu 18.04 Release Party in Seoul, 2018.04.28
   - SPRING CAMP 2018 (with Coupang), 2018.04.21
   - 9XD: Young, Wild Coders - Hello! New Face; The eleventh meeting, 2018.04.13
