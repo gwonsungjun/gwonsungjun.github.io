@@ -1,3 +1,15 @@
+---
+title: '6th Oracle Developer Meetup'  
+layout: post  
+  tags :  
+- seminar
+- oracle
+category: seminar
+---
+
+- [6th] Oracle Developer Meetup 카프카(Kafka) 제대로 이해하기 후기
+
+---
 # [6th] Oracle Developer Meetup 카프카(Kafka) 제대로 이해하기 후기
 - Oracle Developer Meetup에 올해만 벌써 세 번째 참석하게 되었다. 이번 Meetup의 주제는 최근 핫이슈인 카프카(제가 늦었을 수도..)였다.
 - 평소에 많이 궁금해하던 주제여서 망설임 없이 바로 신청하고 다녀왔다.
