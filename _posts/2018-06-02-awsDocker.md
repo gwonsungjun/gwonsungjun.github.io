@@ -1,3 +1,15 @@
+---
+title: 'AWSKRUG Container Hands-On #1 - 모두의 Docker'  
+layout: post  
+tags :  
+- seminar
+category: seminar
+---
+
+- AWSKRUG Container Hands-On #1 - 모두의 Docker에서 진행 했던 실습 내용 공유
+
+---
+
 # AWSKRUG Container Hands-On #1 - 모두의 Docker
 - awskrug(aws Community group) container 모임 3회 중 첫 번째 세션 모두의 Docker 밋업에 참석하게 되었다.
 - 평소에 Docker에 관심이 많았고 이미 흥했지만 앞으로 더 흥할 Docker를 알아가고자 참석하게 되었다.
@@ -10,9 +22,9 @@
 - 실습 문서 download
 
 ## 목차
-- 1. Docker ??
-- 2. Docker 주요 개념
-- 3. Docker Hands-on
+- 1.Docker ??
+- 2.Docker 주요 개념
+- 3.Docker Hands-on
 
 ## 1. Docker ??
 - 하드웨어의 발전으로 더 많은 효율성을 내기 위해 가상화 사용
@@ -121,7 +133,8 @@
 
 ### Docker image push
 - Docker Repository 를 생성 후 repository name에 맞게 이미지를 다시 빌드.
-- Image name을 다음과 같이 정의해주셔야 DockerHub에 push 된다. DockerHubID/DockerHubReponame:TAG
+- Image name을 다음과 같이 정의해주셔야 DockerHub에 push 된다.   
+  - DockerHubID/DockerHubReponame:TAG
 - docker commit -a "test-user" -m "AWSKRUG" web-demo kwen5600/web-demo:0.3
 - docker build --tag kwen5600/web-demo:0.3 ~/AWSKRUG-Docker/
 - docker push kwen5600/web-demo:0.3
