@@ -68,13 +68,14 @@ layout: page
 
 # Experiences
 - **[Community Activities]**
-  - Oracle Developer Meetup - Understanding Kafka, 2018.05.19
-  - Ubuntu 18.04 Release Party in Seoul, 2018.04.28
-  - SPRING CAMP 2018 (with Coupang), 2018.04.21
-  - 9XD: Young, Wild Coders - Hello! New Face; The eleventh meeting, 2018.04.13
-  - Oracle Developer Meetup - Future Java and the Microservice in Your Hands!, 2018.03.18
-  - GDG Campus 2018 Meetup, 2018.02.11
-  - Oracle Developer Meetup - Serverless Computing, 2018.01.27
+  - [2018.06.02] AWSKRUG Container Hands-On #1 - Docker
+  - [2018.05.19] Oracle Developer Meetup - Understanding Kafka
+  - [2018.04.28] Ubuntu 18.04 Release Party in Seoul
+  - [2018.04.21] SPRING CAMP 2018 (with Coupang)
+  - [2018.04.13] 9XD: Young, Wild Coders - Hello! New Face; The eleventh meeting
+  - [2018.03.18] Oracle Developer Meetup - Future Java and the Microservice in Your Hands!
+  - [2018.02.11] GDG Campus 2018 Meetup
+  - [2018.01.27] Oracle Developer Meetup - Serverless Computing
 - [Personal Project] developing...  
 
 # Personality
