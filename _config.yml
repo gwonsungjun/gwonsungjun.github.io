@@ -16,19 +16,19 @@ date_format: '%Y-%m-%d'
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url: https://gwonsungjun.github.io
 baseurl:
-permalink: pretty
+permalink: /posts/:year/:month-:day-:title/
 
 # Pagination
 paginate: 10
 #paginate_path: "/page:num/"
-archive:
-  paginate: 10
+#archive:
+  #paginate: 10
   #paginate_path: "/page:num/"
-category:
-  paginate: 10
+#category:
+  #paginate: 10
   #paginate_path: "/page:num/"
-tag:
-  paginate: 10
+#tag:
+  #paginate: 10
   #paginate_path: "/page:num/"
 
 # Handling Reading
