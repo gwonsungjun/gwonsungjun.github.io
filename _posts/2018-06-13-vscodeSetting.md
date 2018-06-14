@@ -5,9 +5,8 @@ author: gwonsungjun
 category: VSCode
 tags:
 - vscode
-date: 2018.06.13
 ---
-Visual Studio Code 환경 설정 및 기초 사용법 정리{: style="display:inherit;text-align:center;"}
+- Visual Studio Code 환경 설정 및 기초 사용법 정리{: style="display:inherit;text-align:center;"}
 
 # VS Code 란? (Visual Studio Code)
 - MS에서 제공하는 크로스 플랫폼 에디터로 다양한 언어를 서포트 하며, IntelliSense와 Git 기능, 그리고 Extension 을 이용한 확장 기능을 제공하고 있다.
