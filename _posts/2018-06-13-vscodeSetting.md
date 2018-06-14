@@ -5,8 +5,6 @@ author: gwonsungjun
 category: VSCode
 tags:
 - vscode
-comments: true
-share: true
 date: 2018-06-13
 ---
 **Visual Studio Code 환경 설정 및 기초 사용법 정리**{: style="display:inherit;text-align:center;"}
