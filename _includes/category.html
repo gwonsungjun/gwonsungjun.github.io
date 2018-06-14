@@ -15,9 +15,10 @@
 
     {% for post in posts %}
 
+        {% assign page_num = forloop.index0 | divided_by: paginate | plus: 1 %}
+        {% assign route = '/' | append: cat %}
+
       {% include _macro/post-collapse.html %}
     {% endfor %}
   {% endfor %}
 </section>
-
-<nav class="pagination"></nav>
