@@ -1,7 +1,6 @@
 ---
 layout: post
 title: VSCode 환경 설정 및 기초 사용법
-description: Visual Studio Code 환경 설정 및 기초 사용법 정리
 author: gwonsungjun
 category: VSCode
 tags:
