@@ -1,6 +1,4 @@
-{% comment %} list_categories(paginator, prev_text, next_text) {% endcomment %}
-{% capture list_categories %}
-  <ul class="category-list">
+<ul class="category-list">
     {% for cat_posts in site.categories %}
     <li class="category-list-item">
       {% assign cat = cat_posts[0] %}
@@ -11,4 +9,3 @@
     </i>
     {% endfor %}
   </ul>
-{% endcapture %}
