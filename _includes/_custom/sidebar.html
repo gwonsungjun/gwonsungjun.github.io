@@ -1,31 +1,14 @@
-{% comment %} post-collapse(post) {% endcomment %}
-  <article class="post post-type-{{ post.type | default: 'normal' }}" itemscope itemtype="http://schema.org/Article" {% if route %}route="{{ route }}"{% endif %}>
-    <header class="post-header">
-
-      <{% if site.seo %}h3{% else %}h2{% endif %} class="post-title">
-        {% if post.link %}{% comment %} Link posts {% endcomment %}
-          <a class="post-title-link post-title-link-external" target="_blank" href="{{ post.link }}" itemprop="url">
-            {{ post.title | default: post.link }}
-            <i class="fa fa-external-link"></i>
-          </a>
-        {% else %}
-            <a class="post-title-link" href="{{ post.url | relative_url }}" itemprop="url">
-              {% if post.type == 'picture' %}
-                {{ post.content }}
-              {% else %}
-                <span itemprop="name">{{ post.title | default: __.post.untitled }}</span>
-              {% endif %}
-            </a>
-        {% endif %}
-      </{% if site.seo %}h3{% else %}h2{% endif %}>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="{{ post.date | date_to_xmlschema }}"
-              content="{{ post.date | date: site.date_format }}" >
-          {{ post.date | date: '%m-%d' }}
-        </time>
-      </div>
-
-    </header>
-  </article>
+{% comment %} list_categories(paginator, prev_text, next_text) {% endcomment %}
+{% capture list_categories %}
+  <ul class="category-list">
+    {% for cat_posts in site.categories %}
+    <li class="category-list-item">
+      {% assign cat = cat_posts[0] %}
+      {% assign posts = cat_posts[1] %}
+      {% assign cat_url_encode = cat | url_encode | replace: '+', '%20' %}
+      <a class="category-list-link" href="{{ '/category/#/' | relative_url | append: cat_url_encode }}">{{ cat }}</a>
+      <span class="category-list-count">{{ posts.size }}</span>
+    </i>
+    {% endfor %}
+  </ul>
+{% endcapture %}
