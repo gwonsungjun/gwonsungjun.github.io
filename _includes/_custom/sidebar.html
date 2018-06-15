@@ -1,23 +1,31 @@
+{% comment %} post-collapse(post) {% endcomment %}
+  <article class="post post-type-{{ post.type | default: 'normal' }}" itemscope itemtype="http://schema.org/Article" {% if route %}route="{{ route }}"{% endif %}>
+    <header class="post-header">
 
-    <div class="collection-title">
-      <{% if site.seo %}h2{% else %}h1{% endif %}>
-      {{ page.title }}
-      <small>{{  __.title.category  }}</small>
-      </{% if site.seo %}h2{% else %}h1{% endif %}>
-    </div>
-  
-    {% assign paginate = site.category.paginate | default: site.paginate  %}
-    {% assign paginate_path = site.category.paginate_path | default: site.paginate_path  %}
-  
-    {% for cat_posts in site.categories %}
-      {% assign cat = cat_posts[0] | url_encode | replace: '+', '%20' %}
-      {% assign posts = cat_posts[1] %}
-  
-      {% for post in posts %}
-  
-          {% assign page_num = forloop.index0 | divided_by: paginate | plus: 1 %}
-          {% assign route = '/' | append: cat %}
-  
-        {% include _macro/post-collapse.html %}
-      {% endfor %}
-    {% endfor %}
+      <{% if site.seo %}h3{% else %}h2{% endif %} class="post-title">
+        {% if post.link %}{% comment %} Link posts {% endcomment %}
+          <a class="post-title-link post-title-link-external" target="_blank" href="{{ post.link }}" itemprop="url">
+            {{ post.title | default: post.link }}
+            <i class="fa fa-external-link"></i>
+          </a>
+        {% else %}
+            <a class="post-title-link" href="{{ post.url | relative_url }}" itemprop="url">
+              {% if post.type == 'picture' %}
+                {{ post.content }}
+              {% else %}
+                <span itemprop="name">{{ post.title | default: __.post.untitled }}</span>
+              {% endif %}
+            </a>
+        {% endif %}
+      </{% if site.seo %}h3{% else %}h2{% endif %}>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="{{ post.date | date_to_xmlschema }}"
+              content="{{ post.date | date: site.date_format }}" >
+          {{ post.date | date: '%m-%d' }}
+        </time>
+      </div>
+
+    </header>
+  </article>
