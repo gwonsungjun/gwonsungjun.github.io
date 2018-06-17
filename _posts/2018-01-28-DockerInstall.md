@@ -3,10 +3,11 @@ title: 'Windows 10 Home에서 Docker 설치 하기'
 layout: post  
 tags :  
 - How to install
+- docker
 category: How to install
 ---
 
-- Windows 10 Home - Docker 설치
+**Windows 10 Home - Docker 설치**{: style="display:inherit;text-align:center;"}
 
 ---
 

@@ -2,11 +2,11 @@
 title: '2018년 소프트웨어 개발 전망 10가지'  
 layout: post  
 tags :  
-- column
-category: column
+- 생각
+category: 생각
 ---
 
-- 2018년 소프트웨어 개발 전망 10가지 소개
+**2018년 소프트웨어 개발 전망 10가지를 보고 느낀점**{: style="display:inherit;text-align:center;"}
 
 ---
 

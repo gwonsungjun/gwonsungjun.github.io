@@ -3,10 +3,12 @@ title: '2018 GDG Campus Korea 새해 밋업'
 layout: post  
 tags :  
 - Meetup
-category: Meetup
+- seminar
+- GDG
+category: seminar
 ---
 
-- 2018년 GDG(Google developer group)Campus Korea 새해 밋업(Meetup).
+**2018년 GDG(Google developer group)Campus Korea 새해 밋업(Meetup).**{: style="display:inherit;text-align:center;"}
 
 ---
 

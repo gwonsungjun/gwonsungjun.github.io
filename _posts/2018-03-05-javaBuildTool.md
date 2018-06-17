@@ -3,10 +3,14 @@ title: 'Java Build Tool'
 layout: post  
 tags :  
 - java
+- Build Tool
+- ant
+- maven
+- gradle
 category: java
 ---
 
-- Ant, Maven, Gradle 특징 설명 + Groovy 간단 정리
+**Ant, Maven, Gradle 특징 설명 + Groovy 간단 정리**{: style="display:inherit;text-align:center;"}
 
 ---
 

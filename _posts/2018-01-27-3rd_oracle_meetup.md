@@ -1,12 +1,13 @@
 ---
-title: 'Oracle Developer Meetup'  
+title: 'Oracle Developer Meetup - Serverless Computing'  
 layout: post  
 tags :  
-- seminar, Oracle
+- seminar
+- Oracle
 category: seminar
 ---
 
-- Oracle Developer Meetup - Serverless Computing
+**2018 [3rd] Oracle Developer Meetup | Serverless Computing 세미나**{: style="display:inherit;text-align:center;"}
 
 ---
 

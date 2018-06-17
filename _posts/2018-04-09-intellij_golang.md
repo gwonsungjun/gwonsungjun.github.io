@@ -7,7 +7,7 @@ tags :
 category: Golang
 ---
 
-- Intellij에서 Go 언어 개발 환경 설정하기 (windows)
+**Intellij에서 Go 언어 개발 환경 설정하기 (windows)**{: style="display:inherit;text-align:center;"}
 
 ---
 

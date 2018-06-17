@@ -7,7 +7,7 @@ tags :
 category: seminar
 ---
 
-- Oracle Developer Meetup - 미래의 Java와 손에 잡히는 Microservice!
+**Oracle Developer Meetup - 미래의 Java와 손에 잡히는 Microservice!**{: style="display:inherit;text-align:center;"}
 
 ---
 

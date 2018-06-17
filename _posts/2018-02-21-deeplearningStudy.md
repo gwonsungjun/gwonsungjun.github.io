@@ -1,12 +1,12 @@
 ---
-title: '딥러닝 공부법'  
+title: '딥러닝 공부 계획'  
 layout: post  
 tags :  
 - Deep learning
-category: Deep learning
+category: Plan
 ---
 
-- 나만의 딥러닝(Deep learning) 공부 방법
+**나의 딥러닝(Deep learning) 공부 계획**{: style="display:inherit;text-align:center;"}
 
 ---
 
