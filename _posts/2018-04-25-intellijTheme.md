@@ -6,7 +6,7 @@ tags :
 category: intellij
 ---
 
-- intellij 테마(Theme) 및 백그라운드 이미지(Background Image) 적용
+**intellij 테마(Theme) 및 백그라운드 이미지(Background Image) 적용**{: style="display:inherit;text-align:center;"}
 
 ---
 
@@ -39,7 +39,7 @@ category: intellij
 ### 2. Image 업로드, 커스터마이징 후 적용
 ![intellijTheme4](/assets/images/usingimages/intellijTheme/intellijTheme4.png)
 
-## 결과화면
+##w 결과화면
 ![intellijTheme5](/assets/images/usingimages/intellijTheme/intellijTheme5.png)
 
 ## Links

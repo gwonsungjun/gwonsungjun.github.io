@@ -2,9 +2,9 @@
 layout: post
 title: VSCode 환경 설정 및 기초 사용법
 author: gwonsungjun
-category: VSCode
 tags:
 - vscode
+category: VSCode
 ---
 
 **Visual Studio Code 환경 설정 및 기초 사용법 정리**{: style="display:inherit;text-align:center;"}

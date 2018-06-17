@@ -7,7 +7,7 @@ tags :
 category: seminar
 ---
 
-- Ubuntu 18.04 Release Party Review :)
+**Ubuntu 18.04 Release Party Review :)**{: style="display:inherit;text-align:center;"}
 
 ---
 # Ubuntu 18.04 Release Party @Seoul 2018.04.28 (DCAMP)    

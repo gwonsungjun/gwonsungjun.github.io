@@ -6,7 +6,7 @@ tags :
 category: jenkins
 ---
 
-- Ubuntu 16.04 Jenkins Installation process
+**Ubuntu 16.04 Jenkins Installation process**{: style="display:inherit;text-align:center;"}
 
 ---
 
