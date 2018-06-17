@@ -5,11 +5,11 @@ layout: page
 
 # Introduce - Sungjun Gwon
 ---  
-I'm a developer working in Korea Pangyo.   
-I work on Web development, both back-end and front-end. However, I am more interested in the backend.   
-I have a passion for development (continuous self-development) and good communication.       
-I like listening to music, watching movies, playing soccer, and pursuing a minimalial life.      
-The goal of my life is to live happily with the people I love and do the software development that I like for the rest of my life.
+- I'm a developer working in Korea Pangyo.   
+- I work on Web development, both back-end and front-end. However, I am more interested in the backend.   
+- I have a passion for development (continuous self-development) and good communication.       
+- I like listening to music, watching movies, playing soccer, and pursuing a minimalial life.      
+- The goal of my life is to live happily with the people I love and do the software development that I like for the rest of my life.
 
 # Interests
 - Simple
