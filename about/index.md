@@ -3,7 +3,8 @@ title: about
 layout: page
 ---
 
-# Introduce - Sungjun Gwon  
+# Introduce - Sungjun Gwon
+---  
 I'm a developer working in Korea Pangyo.   
 I work on Web development, both back-end and front-end. However, I am more interested in the backend.   
 I have a passion for development (continuous self-development) and good communication.       
