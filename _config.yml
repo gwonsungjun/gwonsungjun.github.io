@@ -75,10 +75,10 @@ plugins:
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `assets/` d5ㅏㅏ irectory.
-favicon: /assets/images/avatar.png
+favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords:
+keywords: "gwonsungjun, sungjun"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
