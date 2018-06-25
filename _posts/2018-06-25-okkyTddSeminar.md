@@ -1,3 +1,17 @@
+---
+title: '[OKKY 세미나] TDD 잘알못을 위한 돌직구 세미나 후기'  
+layout: post  
+tags :  
+- seminar
+- TDD
+- Okky
+category: seminar
+---
+
+**2018.06.21 OKKY "TDD 잘알못을 위한 돌직구 세미나" Review**{: style="display:inherit;text-align:center;"}
+
+---
+
 # [OKKY 세미나] TDD 잘알못을 위한 돌직구 세미나
 
 - 2018.06.21 PM 07:00 ~ 09:30 진행된 OKKY - TDD 세미나에 다녀왔다.
