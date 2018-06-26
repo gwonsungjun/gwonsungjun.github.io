@@ -65,6 +65,7 @@ layout: page
 
 # Experiences
 - **[Community Activities]**
+  - [2018.06.21] [OKKY, TDD 잘알못을 위한 돌직구 세미나](https://gwonsungjun.github.io/seminar/2018/06/25/okkyTddSeminar/#)
   - [2018.06.16] AWSKRUG Container Hands-On #2 - 아마존 ECS에 자바 마이크로 서비스 구축하기
   - [2018.06.10] Google I/O Extended 2018 Seoul
   - [2018.06.02] [AWSKRUG Container Hands-On #1 - Docker](https://gwonsungjun.github.io/seminar/2018/06/02/awsDocker/)
