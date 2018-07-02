@@ -65,10 +65,9 @@ layout: page
 
 # Experiences
 - **[Community Activities]**
+  - [2018.06.27] [제 5회 마스터즈 오픈 세미나, 코드 스쿼드](https://gwonsungjun.github.io/seminar/2018/06/27/codesquadSeminar/#)
   - [2018.06.21] [OKKY, TDD 잘알못을 위한 돌직구 세미나](https://gwonsungjun.github.io/seminar/2018/06/25/okkyTddSeminar/#)
-  - [2018.06.16] AWSKRUG Container Hands-On #2 - 아마존 ECS에 자바 마이크로 서비스 구축하기
   - [2018.06.10] Google I/O Extended 2018 Seoul
-  - [2018.06.02] [AWSKRUG Container Hands-On #1 - Docker](https://gwonsungjun.github.io/seminar/2018/06/02/awsDocker/)
   - [2018.05.19] [Oracle Developer Meetup - Understanding Kafka](https://gwonsungjun.github.io/seminar/2018/05/20/6th_oracle_kafka/)
   - [2018.04.28] [Ubuntu 18.04 Release Party in Seoul](https://gwonsungjun.github.io/seminar/2018/04/29/ubuntuRelaseParty/)
   - [2018.04.21] [SPRING CAMP 2018 (with Coupang)](https://gwonsungjun.github.io/seminar/2018/04/22/springCamp2018/)
@@ -76,6 +75,10 @@ layout: page
   - [2018.03.18] [Oracle Developer Meetup - Future Java and the Microservice in Your Hands!](https://gwonsungjun.github.io/seminar/2018/03/22/4th_oracle_meetup/)
   - [2018.02.11] [GDG Campus 2018 Meetup](https://gwonsungjun.github.io/seminar/2018/02/22/GdgCampusKoreaMeetup/)
   - [2018.01.27] [Oracle Developer Meetup - Serverless Computing](https://gwonsungjun.github.io/seminar/2018/01/27/3rd_oracle_meetup/)
+- [Hands-On]
+  - [2018.06.30] AWSKRUG Hands-on Lab 2018 - Serverless #1 - 손쉽게 시작하는 Serverless Architecture
+  - [2018.06.16] AWSKRUG Container Hands-On #2 - 아마존 ECS에 자바 마이크로 서비스 구축하기
+  - [2018.06.02] [AWSKRUG Container Hands-On #1 - Docker](https://gwonsungjun.github.io/seminar/2018/06/02/awsDocker/)
 - [Personal Project]
   - developing...  
 - [Other activities]
