@@ -6,7 +6,7 @@
 # Site
 title: Sungjun .Dev
 subtitle: 나의 기억 저장소 :)
-description:
+description: Software Developer blog
 author: SungjunGwon
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: ko
@@ -235,7 +235,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: /assets/images/avatar.png
 
 
 # Table Of Contents in the Sidebar
