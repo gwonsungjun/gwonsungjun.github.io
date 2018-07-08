@@ -14,7 +14,7 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: https://gwonsungjun.github.io
+url:
 baseurl:
 permalink: pretty
 
@@ -312,7 +312,7 @@ auto_excerpt:
 # Post meta display settings
 post_meta:
   item_text: true
-  created_at: false
+  created_at: true
   updated_at: false
   categories: true
 
