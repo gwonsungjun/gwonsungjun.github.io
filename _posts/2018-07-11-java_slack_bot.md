@@ -65,6 +65,7 @@ public void sendMsgTest() {
 - 결과
 ![slackbot6](/assets/images/usingimages/slackbot/slackbot6.PNG)
 
+
  ### Links
  - [Slack API](https://api.slack.com/community)
  - [Django - Slacker를 활용하여 간단하게 슬랙 봇 메시지 보내기](https://wayhome25.github.io/django/2017/09/03/django-slack-bot/)
