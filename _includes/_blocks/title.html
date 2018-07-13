@@ -1,6 +1,6 @@
 {% case page.layout %}
 {% when 'index' %}
-  {% capture title %}{{ site.title }}{% if site.index_with_subtitle and site.subtitle %} - {{site.subtitle }}{% endif %}{% endcapture %}
+  {% capture title %}{{ site.title }}{% if site.index_with_subtitle and site.subtitle %}}{% endif %}{% endcapture %}
 {% when 'post' %}
   {% capture title %}{{ page.title }} | {{ site.title }}{% endcapture %}
 {% when 'page' %}
