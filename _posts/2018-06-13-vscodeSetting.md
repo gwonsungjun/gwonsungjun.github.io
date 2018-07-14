@@ -82,7 +82,7 @@ category: VSCode
 - 토큰 입력창이 나오면 이전에 복사해둔 ``토큰을 입력``하고 엔터를 누름
 - 출력창에 아래 그림과같이 설정 정보를 확인할 수 있다.
 ![vsSyncSetting4](/assets/images/usingimages/vscode/vsSyncSetting4.PNG)
-- 이 과정을 진행하면 자동으로 <https://gist.github.com> 에 본인의 아이디에 만들어진다. 사이트에 접속해서 확인.(Embed <script>안의 url에서 본인 아이디 뒤에 있음)
+- 이 과정을 진행하면 자동으로 <https://gist.github.com> 에 본인의 아이디에 만들어진다. 사이트에 접속해서 확인.(Embed `<script>`안의 url에서 본인 아이디 뒤에 있음)
 - 이 아이디를 통해 다른 pc의 VSCode에서 동기화가 가능하다.
 
 #### 3) 다른pc에서 동기화하기
