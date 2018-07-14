@@ -4,7 +4,7 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Sungjun .Dev
+title: Sungjun .Dev 
 subtitle: 나의 기억 저장소 :)
 description: Software Developer blog
 author: SungjunGwon
@@ -14,7 +14,7 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
+url: https://gwonsungjun.github.io
 baseurl:
 permalink: pretty
 
@@ -104,7 +104,7 @@ copyright: true
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in jekyll config.
 # subtitle: Subtitle
