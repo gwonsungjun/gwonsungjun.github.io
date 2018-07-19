@@ -76,9 +76,10 @@ layout: page
   - [2018.02.11] [GDG Campus 2018 Meetup](https://gwonsungjun.github.io/seminar/2018/02/22/GdgCampusKoreaMeetup/)
   - [2018.01.27] [Oracle Developer Meetup - Serverless Computing](https://gwonsungjun.github.io/seminar/2018/01/27/3rd_oracle_meetup/)
 - [Hands-On]
-  - [2018.06.30] AWSKRUG Hands-on Lab 2018 - Serverless #1 - 손쉽게 시작하는 Serverless Architecture
-  - [2018.06.16] AWSKRUG Container Hands-On #2 - 아마존 ECS에 자바 마이크로 서비스 구축하기
-  - [2018.06.02] [AWSKRUG Container Hands-On #1 - Docker](https://gwonsungjun.github.io/seminar/2018/06/02/awsDocker/)
+  - [2018.07.14]  AWSKRUG Hands-on Lab 2018 : Container #3, Kubernetes on AWS
+  - [2018.06.30] AWSKRUG Hands-on Lab 2018 : Serverless #1 - 손쉽게 시작하는 Serverless Architecture
+  - [2018.06.16] AWSKRUG Hands-on Lab 2018 :  Container #2 - 아마존 ECS에 자바 마이크로 서비스 구축하기
+  - [2018.06.02] [AWSKRUG Hands-on Lab 2018 : Container #1 - Docker](https://gwonsungjun.github.io/seminar/2018/06/02/awsDocker/)
 - [Personal Project]
   - developing...  
 - [Other activities]
