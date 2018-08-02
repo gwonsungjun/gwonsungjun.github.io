@@ -12,10 +12,9 @@ category: ELK Stack
 
 ---
 
-## ElasticSearch
+# ElasticSearch
 - [인프런 : ELK 스택 (ElasticSearch, Logstash, Kibana) 으로 데이터 분석](https://www.inflearn.com/course/elk-%EC%8A%A4%ED%83%9D-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D/) 강의를 듣고 정리
-
-## ELK 스택
+### ELK 스택
 - ElasticSerach
     - [Lucene](https://en.wikipedia.org/wiki/Apache_Lucene) 기반 검색 엔진. HTTP 웹 인터페이스와 JSON 문서 객체를 이용해 분산된 multitenant 가능한 검색을 지원한다.
 - LOGSTASH 
@@ -39,6 +38,7 @@ $ java -version
 
 ### (2) install Elasticsearch 
 - 작성일 기준 가장 최신 버전 : 6.3.2(2018/08/01) 
+
 ```bash
 $ wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.3.2.deb
 $ sudo dpkg -i elasticsearch-6.3.2.deb
