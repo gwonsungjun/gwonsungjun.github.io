@@ -27,15 +27,17 @@ category: ELK Stack
 ## 1. 우분투에 엘라스틱서치 설치하기
 - ubuntu 16.04
 
-### install java
+### (1) install java
 - elasticsearch는 jvm 위에서 동작, 따라서 jdk 설치.
+
 ```bash
 $ sudo add-apt-repository -y ppa:webupd8team/java
 $ sudo apt-get update
 $ sudo apt-get -y install oracle-java8-installer
 $ java -version
 ```
-### install Elasticsearch 
+
+### (2) install Elasticsearch 
 - 작성일 기준 가장 최신 버전 : 6.3.2(2018/08/01) 
 ```bash
 $ wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.3.2.deb
@@ -48,11 +50,15 @@ $ sudo systemctl enable elasticsearch.service
     - automatic : elasticsearch를 안전하게 끄고 켜기 위한 setting
 ```
 
-### Elasticsearch Start & Stop
+### (3) Elasticsearch Start & Stop
+
 ```bash
 $ sudo service elasticsearch start
 $ sudo service elasticsearch stop
 $ curl -XGET 'localhost:9200'
+ ```
+
+ ```json
  - 시작되었을 시 아래 출력
 
 {
@@ -93,7 +99,7 @@ $ curl -XGET 'localhost:9200'
      "professor" : "tom"
  }
 ```
-- 해당 정보는 indexing 되어 아래와 같이 저장된다.
+- 해당 정보는 indexing 되어 아래와 표와 같이 저장된다.
 - 해당 keyword가 어떤 documet에 있는지 저장.
 - Better, faster when you `search` text!
 
@@ -103,8 +109,8 @@ $ curl -XGET 'localhost:9200'
 | database | doc1, doc3 |
 | ... | ... |
 
-- 관계형 데이터 베이스와 저장되는 방식이 다름을 알 수 있다.
-- 전부를 저장.
+- 관계형 데이터 베이스와 저장되는 방식이 다름을 알 수 있다. (아래 표 참고)
+- 관계형 데이터 베이스는 전부를 저장.
 
 | document | context |
 | ---- | -------- |
@@ -112,7 +118,7 @@ $ curl -XGET 'localhost:9200'
 | doc2 | "class" : {"name" : "database" "professor" : "john"} |
 | doc3 | "class" : {"name" : "database" "professor" : "john"} |
 
-#### elasticsearch와 RDB
+### (1) elasticsearch와 RDB
 - 참조 : <http://d2.naver.com/helloworld/273788>
 
 |RDB	|elasticsearch|
@@ -125,7 +131,7 @@ $ curl -XGET 'localhost:9200'
 |Index|	Everything is indexed|
 |SQL|	Query|
 
-- elasticsearch = REST API 사용
+### (2) elasticsearch = REST API 사용
 
 |RDB	|elasticsearch|
 |------| ------------|
@@ -143,37 +149,44 @@ $ curl -XGET 'localhost:9200'
 | insert | POST | Create|
 | delete | DELETE | Delete|
 
-### Verify Index
+### (1) Verify Index
 - index를 만들기 전에 해당 index가 있는지 조회
+
 ```bash
 $ curl -XGET localhost:9200/classes
 $ curl -XGET localhost:9200/classes?pretty
 - 결과는 "status" : 404
 ```
+
 - ?pretty : JSON formatting
 
-### Create Index
+### (2) Create Index
 ```bash
 $ curl -XPUT localhost:9200/classes
 - success 결과 : {"acknowledged":true,"shards_acknowledged":true, "index":"classes"}
 ```
 
-### Delete Index
+### (3) Delete Index
 ```bash
 $ curl -XDELETE localhost:9200/classes
 ```
 
-### Create Document
+### (4) Create Document
 - 6.0 이후 버전 부터는 Content-Type checking이 엄격하게 들어가므로 `-H 'Content-Type:application/json'` 옵션 추가 필요
 - 물론 `http.content_type.required` configuration을 통해 설정 가능함. default는 true
+
 ```bash
 $ curl -XPOST localhost:9200/classes/class/1/ -H 'Content-Type:application/json' -d '{"title":"Algorithm", "professor":"John"}'
-- success 결과 : {"_index":"classes","_type":"class","_id":"1","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":0,"_primary_term":1}
 ```
-### Create INDEX, TYPE, DOCUMENT FROM FILE
+
+- success 결과 : {"_index":"classes","_type":"class","_id":"1","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":0,"_primary_term":1}
+
+
+### (5) Create INDEX, TYPE, DOCUMENT FROM FILE
 ```bash
 $ curl -XPOST localhost:9200/classes/class/1/ -H 'Content-Type:application/json' -d @oneclass.json
 ```
+
 ```json
 onclass.json
 
@@ -191,14 +204,17 @@ onclass.json
 
 ## 4. 엘라스틱서치 데이터 업데이트(UPDATE)
 - Document(Row)를 수정
+
 ```bash
 $ curl -XPOST localhost:9200/classes/class/1/ -H 'Content-Type:application/json' -d '{"title":"Algorithm", "professor":"John"}'
 ```
+
 - classes : Index ( RDB's Database )
 - class : Type ( RDB's Table )
 - 1 : Document ( RDB's Row )
 
-### Add Field (RDB's Column)
+### (1) Add Field (RDB's Column)
+
 ```bash
 $ curl -XPOST localhost:9200/classes/class/1/_update -H 'Content-Type:application/json' -d '{"doc":{"unit":1}}'
 $ curl -XGET localhost:9200/classes/class/1?pretty
@@ -209,6 +225,7 @@ $ curl -XGET localhost:9200/classes/class/1?pretty
 | {"title":"Algorithm", "professor":"John"} | {"title":"Algorithm", "professor":"John", "unit": 1} |
 
 - Script를 이용한 방법 (unit field의 값에 5 더함)
+
 ```bash
 $ curl -XPOST localhost:9200/classes/class/1/_update -H 'Content-Type:application/json' -d '{"script":"ctx._source.unit +=5"}'
 ```
@@ -218,9 +235,11 @@ $ curl -XPOST localhost:9200/classes/class/1/_update -H 'Content-Type:applicatio
 - classes file
     - Bulk : 2개의 Line으로 구성
         - 첫줄 = meta information : 어떤 index에, 어떤 type에, id 어떤 걸로 해서 이 document를 넣어라.
+
 ```bash
 $ wget https://raw.githubusercontent.com/minsuk-heo/BigData/master/ch02/classes.json
 ```
+
 ```bash
 $ curl -XPOST localhost:9200/_bulk?pretty -H 'Content-Type:application/json' --data-binary @classes.json
 ```
@@ -232,7 +251,7 @@ $ curl -XPOST localhost:9200/_bulk?pretty -H 'Content-Type:application/json' --d
 - 예를들어 Date 타입을 넣어야하는데 매핑이 없다면 날짜인지 모르니깐 단순히 문자열로 저장할 수도 있음.
 - 잘 못 지정된 타입은 계산, Kibana에 보여줄 때(시각화) 할 때 어려워진다.
 
-### Create Index
+### (1) Create Index
 ```bash
 $ curl -XDELETE localhost:9200/classes
 $ curl -XPUT localhost:9200/classes
@@ -263,18 +282,22 @@ $ curl -XGET localhost:9200/classes?pretty
 - 현재 mapping이 비어있음.
 
 
-### Create Mapping
+### (2)Create Mapping
 - Get classesRating_mapping.json
 - 해당 파일을 가져온 후 편집기를 통해 String -> text로 전부 변경
+
 ```bash
 $ wget https://raw.githubusercontent.com/minsuk-heo/BigData/master/ch02/classesRating_mapping.json
 ```
+
 - Mapping
+
 ```bash
 $ curl -XPUT localhost:9200/classes/class/_mapping -H 'Content-Type:application/json' -d @classesRating_mapping.json
 ```
 - verify
-```bash
+
+```json
 $ curl -XGET localhost:9200/classes?pretty
 
 결과
@@ -366,17 +389,23 @@ $ curl -XGET localhost:9200/classes/class/1/?pretty
 
 ## 7. 엘라스틱서치 Search
 - Get simple_basketball.json
+
 ```bash
 $ wget https://raw.githubusercontent.com/minsuk-heo/BigData/master/ch03/simple_basketball.json
 ```
+
 - Add Document(Bulk)
+
 ```bash
 $ curl -XPOST localhost:9200/_bulk -H 'Content-Type:application/json' --data-binary @simple_basketball.json
 ```
-### Search
+
+### (1) Search
+
 ```bash
 $ curl -XGET localhost:9200/basketball/record/_search?pretty
 ```
+
 ```json
 - 조회 결과
 
@@ -426,13 +455,15 @@ $ curl -XGET localhost:9200/basketball/record/_search?pretty
 }
 ```
 
-### Search - URI (옵션)
+### (2) Search - URI (옵션)
+
 ```bash
 $ curl XGET localhost:9200/basketball/record/_search?q=points:30&pretty
 ```
+
 - q (쿼리는) point:30 (포인트가 30인 것만 조회)
 
-### Search - REQUEST BODY
+### (3) Search - REQUEST BODY
 ```bash
 curl XGET localhost:9200/basketball/record/_search -d '{
   "query": {
@@ -442,6 +473,7 @@ curl XGET localhost:9200/basketball/record/_search -d '{
   }
 }'
 ```
+
 - Request Body의 경우 여러 옵션이 존재
 - <https://www.elastic.co/guide/en/elasticsearch/reference/5.3/search-request-body.html> 참조
 
@@ -449,16 +481,17 @@ curl XGET localhost:9200/basketball/record/_search -d '{
 - 어그리게이션 : 엘라스틱서치 안에 있는 Document 안에서 조합을 통해서 어떠한 값을 도출할때 사용하는 방법
 - 메트릭 어그리게이션 : 산술할때 사용 (합계, 평균, 최대, 최소값 등)
 
-### Add Documents
+### (1) Add Documents
 ```bash
 $ wget https://raw.githubusercontent.com/minsuk-heo/BigData/master/ch03/simple_basketball.json
 $ curl -XPOST localhost:9200/_bulk -H 'Content-Type:application/json' --data-binary @simple_basketball.json
 ```
 
-### Average
+### (2) Average
 ```bash
 $ wget https://raw.githubusercontent.com/minsuk-heo/BigData/master/ch03/avg_points_aggs.json
 ```
+
 ```json
 {
   "size": 0,
@@ -472,14 +505,16 @@ $ wget https://raw.githubusercontent.com/minsuk-heo/BigData/master/ch03/avg_poin
 }
 ```
 - aggreations = aggs
+
 ```bash
 $ curl -XGET localhost:9200/_search?pretty -H 'Content-Type:application/json' --data-binary @avg_points_aggs.json
 ```
 
-### MAX
+### (3) MAX
 ```bash
 $ wget https://raw.githubusercontent.com/minsuk-heo/BigData/master/ch03/max_points_aggs.json
 ```
+
 ```json
 {
   "size": 0,
@@ -492,14 +527,16 @@ $ wget https://raw.githubusercontent.com/minsuk-heo/BigData/master/ch03/max_poin
   }
 }
 ```
+
 ```bash
 $ curl -XGET localhost:9200/_search?pretty -H 'Content-Type:application/json' --data-binary @max_points_aggs.json
 ```
 
-### Min
+### (4) Min
 ```bash
 $ wget https://raw.githubusercontent.com/minsuk-heo/BigData/master/ch03/min_points_aggs.json
 ```
+
 ```json
 {
   "size": 0,
@@ -512,14 +549,16 @@ $ wget https://raw.githubusercontent.com/minsuk-heo/BigData/master/ch03/min_poin
   }
 }
 ```
+
 ```bash
 $ curl -XGET localhost:9200/_search?pretty -H 'Content-Type:application/json' --data-binary @min_points_aggs.json
 ```
 
-### SUM
+### (5) SUM
 ```bash
 $ wget https://raw.githubusercontent.com/minsuk-heo/BigData/master/ch03/sum_points_aggs.json
 ```
+
 ```json
 {
   "size": 0,
@@ -532,15 +571,18 @@ $ wget https://raw.githubusercontent.com/minsuk-heo/BigData/master/ch03/sum_poin
   }
 }
 ```
+
 ```bash
 $ curl -XGET localhost:9200/_search?pretty -H 'Content-Type:application/json' --data-binary @sum_points_aggs.json
 ```
 
-### STATS
+### (6) STATS
 - 평균, 합계, 최소, 최대 값을 한 번에 도출
+
 ```bash
 $ wget https://raw.githubusercontent.com/minsuk-heo/BigData/master/ch03/stats_points_aggs.json
 ```
+
 ```json
 {
   "size": 0,
@@ -553,6 +595,7 @@ $ wget https://raw.githubusercontent.com/minsuk-heo/BigData/master/ch03/stats_po
   }
 }
 ```
+
 ```bash
 $ curl -XGET localhost:9200/_search?pretty -H 'Content-Type:application/json' --data-binary @stats_points_aggs.json
 ```
@@ -560,28 +603,33 @@ $ curl -XGET localhost:9200/_search?pretty -H 'Content-Type:application/json' --
 ## 9. 엘라스틱서치 버켓 어그리게이션(Bucket Aggregation)
 - 버켓 어그리게이션 : GROUP BY (데이터를 일정 기준으로 묶어서 결과를 도출)
 
-### Create Basketball Index
+### (1) Create Basketball Index
+
 ```bash
 curl -XPUT localhost:9200/basketball
 ```
 
-### Mapping Basketball
+### (2) Mapping Basketball
+
 ```bash
 $ wget https://raw.githubusercontent.com/minsuk-heo/BigData/master/ch04/basketball_mapping.json
 $ curl -XPUT localhost:9200/basketball/record/_mapping -H 'Content-Type:application/json' -d @basketball_mapping.json
 ```
 
-### Add Basketball Documents
+### (3) Add Basketball Documents
+
 ```bash
 $ wget https://raw.githubusercontent.com/minsuk-heo/BigData/master/ch04/twoteam_basketball.json
 $ curl -XPOST localhost:9200/_bulk -H 'Content-Type:application/json' --data-binary @twoteam_basketball.json
 ```
 
-### TERM aggs - Group by team
+### (4) TERM aggs - Group by team
+
 ```bash
 $ wget https://raw.githubusercontent.com/minsuk-heo/BigData/master/ch04/terms_aggs.json
 $ curl -XGET localhost:9200/_search?pretty -H 'Content-Type:application/json' --data-binary @terms_aggs.json
 ```
+
 ```json
 {
   "took" : 10,
@@ -615,10 +663,12 @@ $ curl -XGET localhost:9200/_search?pretty -H 'Content-Type:application/json' --
   }
 }
 ```
+
 - chicago : 2, la : 2 확인 가능
 
-### STATS aggs - Group by team
+### (5) STATS aggs - Group by team
 - 각 팀별로 그룹한 것 중 분석 통계(stats)
+
 ```bash
 $ wget https://raw.githubusercontent.com/minsuk-heo/BigData/master/ch04/stats_by_team.json
 $ curl -XGET localhost:9200/_search?pretty -H 'Content-Type:application/json' --data-binary @stats_by_team.json
