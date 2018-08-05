@@ -1,5 +1,5 @@
 ---
-title: 'Kibana, 키바나 기본 개념'  
+title: 'Kibana, 키바나 기초'  
 layout: post  
 tags :  
 - kibana

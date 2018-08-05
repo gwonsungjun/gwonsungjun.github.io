@@ -1,5 +1,5 @@
 ---
-title: 'Logstash, 로그스태시 기본 개념' 
+title: 'Logstash, 로그스태시 기초' 
 layout: post  
 tags :  
 - Logstash

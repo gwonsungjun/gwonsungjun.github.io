@@ -1,5 +1,5 @@
 ---
-title: 'ElasticSearch, 엘라스틱서치 기본 개념'  
+title: 'ElasticSearch, 엘라스틱서치 기초'  
 layout: post  
 tags :  
 - elasticsearch
