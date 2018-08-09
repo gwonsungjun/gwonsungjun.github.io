@@ -12,7 +12,7 @@ category: java
 
 ---
 
-## Intro
+# JAVA - SimpleSlackAPI를 활용하여 간단한 슬랙 봇 메시지 보내기 : Intro
 
 - 사내 배치 프로그램 문자 메세지 전송이 부담되어 Slack 메세지 전송으로 부분적 대체하기 위해 테스트를 해보았다.
 - 더 좋은 방법이 많지만 가장 쉽게 테스트할 수 있는 방법이라 생각하여 [SimpleSlackAPI](https://github.com/Ullink/simple-slack-api)를 선택하게 되었다.

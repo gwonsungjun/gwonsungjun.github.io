@@ -1,11 +1,13 @@
 ---
-title: 'Logstash, 로그스태시 기초' 
-layout: post  
-tags :  
+layout: post
+title: 'Logstash, 로그스태시 기초'
+category: ELK Stack
+tags : 
 - Logstash
 - 로그스태시
 - ELK
-category: ELK Stack
+subtitle: 결제 시스템을 개비하며 진행한 성능, 부하, 스트레스 테스트 경험기
+author : sungjun
 ---
 
 **Ubuntu에서 Logstash 실습**{: style="display:inherit;text-align:center;"}
