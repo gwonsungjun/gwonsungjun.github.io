@@ -6,7 +6,7 @@ tags :
 - Logstash
 - 로그스태시
 - ELK
-subtitle: 결제 시스템을 개비하며 진행한 성능, 부하, 스트레스 테스트 경험기
+subtitle: Ubuntu에서 Logstash 실습 해보기
 author : sungjun
 ---
 
