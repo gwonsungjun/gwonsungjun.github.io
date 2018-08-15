@@ -65,6 +65,7 @@ layout: page
 
 # Experiences
 - **[Community Activities]**
+  - [2018.07.28] [하시코프 한국 사용자 밋업(HashiCorp Korea User Group MeetUp)](https://festa.io/events/45)
   - [2018.06.27] [제 5회 마스터즈 오픈 세미나, 코드 스쿼드](https://gwonsungjun.github.io/seminar/2018/06/27/codesquadSeminar/#)
   - [2018.06.21] [OKKY, TDD 잘알못을 위한 돌직구 세미나](https://gwonsungjun.github.io/seminar/2018/06/25/okkyTddSeminar/#)
   - [2018.06.10] Google I/O Extended 2018 Seoul
