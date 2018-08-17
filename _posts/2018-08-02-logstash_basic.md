@@ -2,10 +2,7 @@
 layout: post
 title: 'Logstash, 로그스태시 기초'
 category: ELK Stack
-tags : 
-- Logstash
-- 로그스태시
-- ELK
+tags : Logstash, 로그스태시, ELK
 subtitle: Ubuntu에서 Logstash 실습 해보기
 author : sungjun
 ---

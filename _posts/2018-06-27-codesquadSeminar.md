@@ -1,10 +1,10 @@
 ---
 title: '제 5회 마스터즈 오픈 세미나(코드 스쿼드) 후기'  
 layout: post  
-tags :  
-- seminar
-- codesquad
+tags : seminar, codesquad
 category: seminar
+subtitle: 2018.06.27 제 5회 마스터즈 오픈 세미나(코드 스쿼드) Review
+author : sungjun
 ---
 
 **2018.06.27 제 5회 마스터즈 오픈 세미나(코드 스쿼드) Review**{: style="display:inherit;text-align:center;"}

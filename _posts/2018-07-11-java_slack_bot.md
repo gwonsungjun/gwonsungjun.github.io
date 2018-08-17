@@ -1,11 +1,10 @@
 ---
 title: 'JAVA - SimpleSlackAPI를 활용하여 간단한 슬랙 봇 메시지 보내기'  
 layout: post  
-tags :  
-- java
-- 슬랙봇
-- slack bot
+tags : java, 슬랙봇, slack bot
 category: java
+subtitle: SimpleSlackAPI를 활용하여 간단한 슬랙 봇 메시지 보내기
+author : sungjun
 ---
 
 **SimpleSlackAPI를 활용하여 간단한 슬랙 봇 메시지 보내기, OAuth Access Tocken 생성부터 JAVA Test Code까지**{: style="display:inherit;text-align:center;"}

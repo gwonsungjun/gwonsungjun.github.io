@@ -1,11 +1,10 @@
 ---
 title: 'ElasticSearch, 엘라스틱서치 기초'  
 layout: post  
-tags :  
-- elasticsearch
-- 엘라스틱서치
-- ELK
+tags : elasticsearch, 엘라스틱서치, ELK
 category: ELK Stack
+subtitle: Ubuntu에서 Elasticsearch 실습해보기
+author : sungjun
 ---
 
 **Ubuntu에서 Elasticsearch 실습**{: style="display:inherit;text-align:center;"}

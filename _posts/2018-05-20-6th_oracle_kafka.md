@@ -1,10 +1,10 @@
 ---
 title: '6th Oracle Developer Meetup'  
 layout: post  
-tags :  
-- seminar
-- oracle
+tags : seminar, oracle
 category: seminar
+subtitle: 카프카(Kafka) 제대로 이해하기 후기
+author : sungjun
 ---
 
 **[6th] Oracle Developer Meetup 카프카(Kafka) 제대로 이해하기 후기**{: style="display:inherit;text-align:center;"}

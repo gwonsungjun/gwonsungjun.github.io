@@ -1,9 +1,10 @@
 ---
 title: '오늘의 CSS 삽질'  
 layout: post  
-tags :  
-- css
+tags : css
 category: css
+subtitle: html, table 태그 끊겨서 보이는 문제 해결
+author : sungjun
 ---
 
 **html, table 태그 끊겨서 보이는 문제 해결**{: style="display:inherit;text-align:center;"}

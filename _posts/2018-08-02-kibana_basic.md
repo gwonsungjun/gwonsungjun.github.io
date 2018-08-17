@@ -1,11 +1,10 @@
 ---
 title: 'Kibana, 키바나 기초'  
 layout: post  
-tags :  
-- kibana
-- 키바나
-- ELK
+tags : kibana, 키바나, ELK
 category: ELK Stack
+subtitle: Ubuntu에서 Kibana 실습 해보기
+author : sungjun
 ---
 
 **Ubuntu에서 Kibana 실습**{: style="display:inherit;text-align:center;"}

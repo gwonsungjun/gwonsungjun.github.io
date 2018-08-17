@@ -1,9 +1,10 @@
 ---
 title: 'Go 언어 학습을 위한 사이트'  
 layout: post  
-tags :  
-- Golang
+tags : Golang
 category: Golang
+subtitle: GO 언어 학습에 유용한 사이트 모음
+author : sungjun
 ---
 
 **GO 언어 학습에 유용한 사이트 모음**{: style="display:inherit;text-align:center;"}

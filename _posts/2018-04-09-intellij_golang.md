@@ -1,10 +1,10 @@
 ---
 title: 'Go 언어 개발 환경 설정 - Intellij (windows)'  
 layout: post  
-tags :  
-- Golang
-- intellij
+tags : Golang, intellij
 category: Golang
+subtitle: Intellij에서 Go 언어 개발 환경 설정하기 (windows)
+author : sungjun
 ---
 
 **Intellij에서 Go 언어 개발 환경 설정하기 (windows)**{: style="display:inherit;text-align:center;"}

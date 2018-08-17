@@ -1,10 +1,10 @@
 ---
 title: '4th Oracle Developer Meetup'  
 layout: post  
-tags :  
-- seminar
-- oracle
+tags : seminar, oracle
 category: seminar
+subtitle: 미래의 Java와 손에 잡히는 Microservice!
+author : sungjun
 ---
 
 **Oracle Developer Meetup - 미래의 Java와 손에 잡히는 Microservice!**{: style="display:inherit;text-align:center;"}

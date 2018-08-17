@@ -1,9 +1,10 @@
 ---
 title: 'Ubuntu 16.04 Jenkins 설치'  
 layout: post  
-tags :  
-- jenkins
+tags : jenkins
 category: jenkins
+subtitle: Ubuntu 16.04 Jenkins Installation process
+author : sungjun
 ---
 
 **Ubuntu 16.04 Jenkins Installation process**{: style="display:inherit;text-align:center;"}

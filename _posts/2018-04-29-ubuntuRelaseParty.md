@@ -1,10 +1,10 @@
 ---
 title: 'Ubuntu 18.04 Release Party 후기'  
 layout: post  
-tags :  
-- ubuntu
-- seminar
+tags : ubuntu, seminar
 category: seminar
+subtitle: Ubuntu 18.04 Release Party Review :)
+author : sungjun
 ---
 
 **Ubuntu 18.04 Release Party Review :)**{: style="display:inherit;text-align:center;"}

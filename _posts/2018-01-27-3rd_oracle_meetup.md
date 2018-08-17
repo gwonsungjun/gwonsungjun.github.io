@@ -1,10 +1,10 @@
 ---
 title: 'Oracle Developer Meetup - Serverless Computing'  
 layout: post  
-tags :  
-- seminar
-- oracle
+tags : seminar, oracle
 category: seminar
+subtitle: Serverless Computing 세미나
+author : sungjun
 ---
 
 **2018 [3rd] Oracle Developer Meetup, Serverless Computing 세미나**{: style="display:inherit;text-align:center;"}
