@@ -23,6 +23,7 @@ author : sungjun
 ## 2. 의존성 추가
 
 - maven
+
 ```xml
 <dependencies>
     <dependency>
@@ -34,6 +35,7 @@ author : sungjun
 ```
 
 - Gradle
+
 ```gradle
 dependencies {
     compile("org.springframework.boot:spring-boot-devtools")
@@ -46,11 +48,14 @@ dependencies {
 
 ![liveReload2](/assets/images/usingimages/liveReload/livereload2.PNG)
 
+
  ## 4. Intellij registry 설정
+
  - Ctrl + Shift + A : registry 입력
  - `compiler.automake.allow.when.app.running 체크` -> close
 
  ![liveReload3](/assets/images/usingimages/liveReload/livereload3.PNG)
+
 
 ## 추가 팁
 - default 설정이 아닌 커스텀해서 사용하고 싶은 경우 application.yml 파일에서 수정 가능.
