@@ -48,8 +48,7 @@ dependencies {
 
 ![liveReload2](/assets/images/usingimages/liveReload/livereload2.PNG)
 
-
- ## 4. Intellij registry 설정
+## 4. Intellij registry 설정
 
  - Ctrl + Shift + A : registry 입력
  - `compiler.automake.allow.when.app.running 체크` -> close
