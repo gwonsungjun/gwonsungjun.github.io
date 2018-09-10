@@ -28,13 +28,13 @@ layout: page
 - Ubuntu
 - AWS / Docker
 - Git / Github / GitLab / SVN
-- IntelliJ / Eclipse / Vim / Visual Studio Code / Atom
+- IntelliJ / Eclipse / Vim / Visual Studio Code
 - Soft Skill
 
 # Learning
 - Cloud computing, AWS deepening
-- vue.js, react.js, Node.js
 - Unmanaged languages (C)
+- vue.js
 - Golang / Python
 - RESTful API / MSA (Micro Service Architecture)
 - Jenkins / Travis CI
@@ -65,6 +65,8 @@ layout: page
 
 # Experiences
 - **[Community Activities]**
+  - [2018.09.04] [if Kakao 개발자 컨퍼런스](https://if.kakao.com/)
+  - [2018.08.31] [Popit 멘토링 데이](https://festa.io/events/70)
   - [2018.07.28] [하시코프 한국 사용자 밋업(HashiCorp Korea User Group MeetUp)](https://festa.io/events/45)
   - [2018.06.27] [제 5회 마스터즈 오픈 세미나, 코드 스쿼드](https://gwonsungjun.github.io/seminar/2018/06/27/codesquadSeminar/#)
   - [2018.06.21] [OKKY, TDD 잘알못을 위한 돌직구 세미나](https://gwonsungjun.github.io/seminar/2018/06/25/okkyTddSeminar/#)
@@ -84,7 +86,9 @@ layout: page
 - [Personal Project]
   - developing...  
 - [Other activities]
-  - study, hackathon, contribute ...
+  - [자바카페 커뮤니티](https://www.facebook.com/%EC%9E%90%EB%B0%94%EC%B9%B4%ED%8E%98-667190409958896/?ref=br_rs) 스프링5 레시피 스터디
+  - [트레바리 독서모임](https://trevari.co.kr/) 보통의 존재 1809 시즌 
+  - hackathon, contribute ...
 
 # Contacts
 - [GitHub](https://github.com/gwonsungjun)
