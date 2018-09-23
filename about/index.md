@@ -11,6 +11,11 @@ layout: page
 - I like listening to music, watching movies, playing soccer, and pursuing a minimalial life.      
 - The goal of my life is to live happily with the people I love and do the software development that I like for the rest of my life.
 
+# Motto
+> If you hate a person, you hate something in him that is part of yourself. What isn't part of ourselves doesn't disturb us. - Hermann Hesse
+>
+> 누군가를 미워하고 있다면, 그 사람의 모습 속에 보이는 자신의 일부분인 것을 미워하는 것이다. 나의 일부가 아닌 것은 거슬리지 않는다.
+
 # Interests
 - Simple
 - Automation
