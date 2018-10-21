@@ -70,6 +70,7 @@ layout: page
 
 # Experiences
 - **[Community Activities]**
+  - [2018.10.18] [OKKYCON:2018 - The Real TDD](http://www.okkycon.com/)
   - [2018.10.11] [Deview 2018](https://deview.kr/2018/pick/6731)
   - [2018.09.04] [if Kakao 개발자 컨퍼런스](https://if.kakao.com/)
   - [2018.08.31] [Popit 멘토링 데이](https://festa.io/events/70)
