@@ -27,14 +27,13 @@ layout: page
 - Spring / Spring Boot
 - JPA, Hibernate / Mybatis
 - Gradle / Maven
-- Markdown / html5 / css3
 - Tomcat / Nginx
 - MySQL / Oracle
-- Ubuntu
+- Linux : Ubuntu
 - AWS / Docker
+- html5 / css3
 - Git / Github / GitLab / SVN
 - IntelliJ / Eclipse / Vim / Visual Studio Code
-- Soft Skill
 
 # Learning
 - **OOP / TDD / CleanCode / Refactoring / Design patterns**
