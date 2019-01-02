@@ -37,16 +37,15 @@ layout: page
 - Soft Skill
 
 # Learning
+- **OOP / TDD / CleanCode / Refactoring / Design patterns**
 - Cloud computing, AWS deepening
-- Unmanaged languages (C)
-- vue.js
 - Golang / Python
 - RESTful API / MSA (Micro Service Architecture)
-- Jenkins / Travis CI
-- Blockchain(Ethereum, hyperledger)
+- CI/CD : Jenkins
 - Redis
 - Elasticsearch / Logstash / Kibana
-- OOP / Refactoring / Design patterns / TDD
+- vue.js
+
 
 # My GitHub Contributions
 
@@ -59,14 +58,13 @@ layout: page
 
 ### What did I do?
 - 12cm laboratory, Web Devloper (front & back)
-  - Development & Deploy
+  - Development
     - Java, Spring, Springboot, JPA, MyBatis, Mysql
     - GitLab, SVN
     - javaScript, html, css
     - Developed on AWS(EC2, RDS, S3)
   - Operation (log monitoring, troubleshooting)
   - Technical Research
-    - Blockchain
 
 # Experiences
 - **[Community Activities]**
@@ -95,7 +93,6 @@ layout: page
 - [Other activities]
   - [자바카페 커뮤니티](https://www.facebook.com/%EC%9E%90%EB%B0%94%EC%B9%B4%ED%8E%98-667190409958896/?ref=br_rs) 스프링5 레시피 스터디
   - [트레바리 독서모임](https://trevari.co.kr/) 보통의 존재 1809 시즌 
-  - hackathon, contribute ...
 
 # Contacts
 - [GitHub](https://github.com/gwonsungjun)
