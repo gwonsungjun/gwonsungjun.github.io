@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5321e95b-675a-4fa8-9715-d6a86e762aee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/about/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/about/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-01-06-190101_190106.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-01-06-190101_190106.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,8 +56,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-12-23-181217_181223.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret selection-end-line="11" selection-end-column="3" />
+              <first_editor relative-caret-position="161">
+                <caret line="7" column="3" selection-end-line="75" selection-end-column="123" />
               </first_editor>
               <second_editor />
             </state>
@@ -67,8 +68,20 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-08-02-kibana_basic.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="523">
-                <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+              <first_editor relative-caret-position="1518">
+                <caret line="66" selection-start-line="66" selection-end-line="66" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="391">
+                <caret line="17" selection-start-line="17" selection-end-line="17" />
               </first_editor>
               <second_editor />
             </state>
@@ -76,11 +89,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/about/index.md">
+        <entry file="file://$PROJECT_DIR$/_posts/2019-01-06-190101_190106.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="598">
-                <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+              <first_editor relative-caret-position="437">
+                <caret line="19" column="136" selection-start-line="19" selection-start-column="136" selection-end-line="19" selection-end-column="136" />
               </first_editor>
               <second_editor />
             </state>
@@ -111,14 +124,15 @@
         <option value="$PROJECT_DIR$/_posts/2018-12-23-2018_Review.md" />
         <option value="$PROJECT_DIR$/_posts/2018-12-31-2018_Review.md" />
         <option value="$PROJECT_DIR$/about/index.md" />
+        <option value="$PROJECT_DIR$/_posts/2019-01-06-190101_190106.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="634" />
-    <option name="y" value="144" />
+    <option name="x" value="632" />
+    <option name="y" value="142" />
     <option name="width" value="1440" />
-    <option name="height" value="788" />
+    <option name="height" value="790" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -128,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,7 +159,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,7 +202,10 @@
       <workItem from="1546094370280" duration="1032000" />
       <workItem from="1546206747596" duration="142000" />
       <workItem from="1546206908564" duration="14000" />
-      <workItem from="1546432175785" duration="841000" />
+      <workItem from="1546432175785" duration="1293000" />
+      <workItem from="1546433499169" duration="69000" />
+      <workItem from="1546759009600" duration="3554000" />
+      <workItem from="1546784209332" duration="2542000" />
     </task>
     <task id="LOCAL-00001" summary="Add Weekly Review">
       <created>1544366297860</created>
@@ -204,17 +221,31 @@
       <option name="project" value="LOCAL" />
       <updated>1544967877384</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update about">
+      <created>1546433455209</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1546433455209</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add Weekly Review">
+      <created>1546786531523</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1546786531523</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10946000" />
+    <option name="totallyTimeSpent" value="17563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.119072706" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26923078" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -225,18 +256,38 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.03218884" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.03218884" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.13412017" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26947537" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.03218884" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.052539404" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update about" />
     <MESSAGE value="Add Weekly Review" />
     <option name="LAST_COMMIT_MESSAGE" value="Add Weekly Review" />
   </component>
@@ -275,8 +326,28 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-12-23-181217_181223.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="11" selection-end-column="3" />
+          <first_editor relative-caret-position="161">
+            <caret line="7" column="3" selection-end-line="75" selection-end-column="123" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-02-kibana_basic.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1518">
+            <caret line="66" selection-start-line="66" selection-end-line="66" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="391">
+            <caret line="17" selection-start-line="17" selection-end-line="17" />
           </first_editor>
           <second_editor />
         </state>
@@ -290,21 +361,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-08-02-kibana_basic.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2019-01-06-190101_190106.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="523">
-            <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="598">
-            <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <first_editor relative-caret-position="437">
+            <caret line="19" column="136" selection-start-line="19" selection-start-column="136" selection-end-line="19" selection-end-column="136" />
           </first_editor>
           <second_editor />
         </state>
