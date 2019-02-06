@@ -7,7 +7,7 @@ subtitle: intellij 테마(Theme) 및 백그라운드 이미지(Background Image)
 author : sungjun
 ---
 
-**intellij 테마(Theme) 및 백그라운드 이미지(Background Image) 적용**{: style="display:inherit;text-align:center;"}
+**intellij 테마(Theme) 및 백그라운드 이미지(Background Image) 적용** 
 
 ---
 

@@ -7,7 +7,7 @@ subtitle: Spring boot 개발 시 자동 리로드 환경 구축
 author : sungjun
 ---
 
-**Intellij Spring boot 개발 시 자동 리로드 환경 구축**{: style="display:inherit;text-align:center;"}
+**Intellij Spring boot 개발 시 자동 리로드 환경 구축** 
 
 ---
 

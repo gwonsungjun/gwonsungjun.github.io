@@ -7,7 +7,7 @@ subtitle: SimpleSlackAPI를 활용하여 간단한 슬랙 봇 메시지 보내�
 author : sungjun
 ---
 
-**SimpleSlackAPI를 활용하여 간단한 슬랙 봇 메시지 보내기, OAuth Access Tocken 생성부터 JAVA Test Code까지**{: style="display:inherit;text-align:center;"}
+**SimpleSlackAPI를 활용하여 간단한 슬랙 봇 메시지 보내기, OAuth Access Tocken 생성부터 JAVA Test Code까지** 
 
 ---
 

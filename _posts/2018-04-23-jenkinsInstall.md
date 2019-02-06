@@ -7,7 +7,7 @@ subtitle: Ubuntu 16.04 Jenkins Installation process
 author : sungjun
 ---
 
-**Ubuntu 16.04 Jenkins Installation process**{: style="display:inherit;text-align:center;"}
+**Ubuntu 16.04 Jenkins Installation process** 
 
 ---
 

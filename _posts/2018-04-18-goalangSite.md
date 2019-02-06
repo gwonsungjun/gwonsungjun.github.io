@@ -7,7 +7,7 @@ subtitle: GO 언어 학습에 유용한 사이트 모음
 author : sungjun
 ---
 
-**GO 언어 학습에 유용한 사이트 모음**{: style="display:inherit;text-align:center;"}
+**GO 언어 학습에 유용한 사이트 모음** 
 
 ---
 

@@ -7,7 +7,7 @@ subtitle: Jekyll에서 Google Analytics
 author : sungjun
 ---
 
-**Jekyll에서 Google Analytics**{: style="display:inherit;text-align:center;"}
+**Jekyll에서 Google Analytics** 
 
 ---
 

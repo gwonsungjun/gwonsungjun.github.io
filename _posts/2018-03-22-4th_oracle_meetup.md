@@ -7,7 +7,7 @@ subtitle: 미래의 Java와 손에 잡히는 Microservice!
 author : sungjun
 ---
 
-**Oracle Developer Meetup - 미래의 Java와 손에 잡히는 Microservice!**{: style="display:inherit;text-align:center;"}
+**Oracle Developer Meetup - 미래의 Java와 손에 잡히는 Microservice!** 
 
 ---
 

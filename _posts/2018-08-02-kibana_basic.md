@@ -7,7 +7,7 @@ subtitle: Ubuntu에서 Kibana 실습 해보기
 author : sungjun
 ---
 
-**Ubuntu에서 Kibana 실습**{: style="display:inherit;text-align:center;"}
+**Ubuntu에서 Kibana 실습** 
 
 ---
 

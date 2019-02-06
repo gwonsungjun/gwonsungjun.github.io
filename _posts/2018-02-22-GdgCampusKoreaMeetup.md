@@ -7,7 +7,7 @@ subtitle: 2018년 GDG(Google developer group)Campus Korea 새해 밋업(Meetup).
 author : sungjun
 ---
 
-**2018년 GDG(Google developer group)Campus Korea 새해 밋업(Meetup).**{: style="display:inherit;text-align:center;"}
+**2018년 GDG(Google developer group)Campus Korea 새해 밋업(Meetup).** 
 
 ---
 

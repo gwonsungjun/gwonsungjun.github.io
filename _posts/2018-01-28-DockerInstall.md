@@ -7,7 +7,7 @@ subtitle: Windows 10 Home - Docker 설치
 author : sungjun
 ---
 
-**Windows 10 Home - Docker 설치**{: style="display:inherit;text-align:center;"}
+**Windows 10 Home - Docker 설치** 
 
 ---
 

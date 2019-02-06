@@ -7,7 +7,7 @@ subtitle: 나의 딥러닝(Deep learning) 공부 계획
 author : sungjun
 ---
 
-**나의 딥러닝(Deep learning) 공부 계획**{: style="display:inherit;text-align:center;"}
+**나의 딥러닝(Deep learning) 공부 계획** 
 
 ---
 

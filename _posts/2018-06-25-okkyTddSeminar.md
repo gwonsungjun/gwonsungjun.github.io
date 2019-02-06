@@ -7,7 +7,7 @@ subtitle: 2018.06.21 OKKY "TDD 잘알못을 위한 돌직구 세미나" Review
 author : sungjun
 ---
 
-**2018.06.21 OKKY "TDD 잘알못을 위한 돌직구 세미나" Review**{: style="display:inherit;text-align:center;"}
+**2018.06.21 OKKY "TDD 잘알못을 위한 돌직구 세미나" Review** 
 
 ---
 

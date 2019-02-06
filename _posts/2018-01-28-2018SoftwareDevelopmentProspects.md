@@ -7,7 +7,7 @@ subtitle: 2018년 소프트웨어 개발 전망 10가지를 보고 느낀점
 author : sungjun
 ---
 
-**2018년 소프트웨어 개발 전망 10가지를 보고 느낀점**{: style="display:inherit;text-align:center;"}
+**2018년 소프트웨어 개발 전망 10가지를 보고 느낀점** 
 
 ---
 

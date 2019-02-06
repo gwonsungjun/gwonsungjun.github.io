@@ -7,7 +7,7 @@ subtitle: 2018.06.27 제 5회 마스터즈 오픈 세미나(코드 스쿼드) Re
 author : sungjun
 ---
 
-**2018.06.27 제 5회 마스터즈 오픈 세미나(코드 스쿼드) Review**{: style="display:inherit;text-align:center;"}
+**2018.06.27 제 5회 마스터즈 오픈 세미나(코드 스쿼드) Review** 
 
 ---
 

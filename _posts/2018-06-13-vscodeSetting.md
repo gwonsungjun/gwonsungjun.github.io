@@ -8,7 +8,7 @@ subtitle: Visual Studio Code 환경 설정 및 기초 사용법 정리
 author : sungjun
 ---
 
-**Visual Studio Code 환경 설정 및 기초 사용법 정리**{: style="display:inherit;text-align:center;"}
+**Visual Studio Code 환경 설정 및 기초 사용법 정리** 
 
 ---
 # VS Code 란? (Visual Studio Code)

@@ -7,7 +7,7 @@ subtitle: Ubuntu에서 Elasticsearch 실습해보기
 author : sungjun
 ---
 
-**Ubuntu에서 Elasticsearch 실습**{: style="display:inherit;text-align:center;"}
+**Ubuntu에서 Elasticsearch 실습** 
 
 ---
 
