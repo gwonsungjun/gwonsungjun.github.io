@@ -29,7 +29,7 @@
 
   .post-body img { margin: 0; }
   .post-body{
-    @include mobile() { font-size: $font-size-headings-smaller; }
+    @include mobile() { font-size: $font-size-smaller; }
   }
 
   .post-tags {
