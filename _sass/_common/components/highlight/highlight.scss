@@ -5,7 +5,7 @@
 
 // Placeholder: $code-block
 %code-block {
-  overflow: scroll;
+  overflow: auto;
   margin: 20px 0;
   padding: 0;
   font-size: $code-font-size;
@@ -18,7 +18,7 @@ pre, code { font-family: $code-font-family; }
 
 code {
   padding: 2px 4px;
-  word-wrap: break-word;
+  word-wrap: normal;
   color: $code-foreground;
   background: $code-background;
   border-radius: $code-border-radius;
