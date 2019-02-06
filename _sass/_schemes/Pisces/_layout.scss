@@ -2,7 +2,6 @@
   position: relative;
   margin: 0 auto;
   width: $main-desktop;
-  background-image: url(/assets/images/button/fa-pencil-square-o.png);
 
   @include tablet() {
     width: auto;
