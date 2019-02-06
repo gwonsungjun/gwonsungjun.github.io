@@ -6,7 +6,6 @@
   .post-title,
   .post-meta {
     text-align: $site-meta-text-align;
-    @include mobile() { text-align: center; }
   }
   .post-eof { display: none; }
 
