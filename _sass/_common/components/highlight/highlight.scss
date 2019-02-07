@@ -23,6 +23,7 @@ code {
   background: $code-background;
   border-radius: $code-border-radius;
   font-size: $code-font-size;
+  @include mobile() { font-size: $font-size-smaller; }
 }
 
 pre {
