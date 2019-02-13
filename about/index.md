@@ -30,20 +30,19 @@ layout: page
 - Tomcat / Nginx
 - MySQL / Oracle
 - Linux : Ubuntu
-- AWS / Docker
-- html5 / css3
+- AWS / Docker / Jenkins
+- HTML5 / CSS3
 - Git / Github / GitLab / SVN
 - IntelliJ / Eclipse / Vim / Visual Studio Code
 
 # Learning
 - **OOP / TDD / CleanCode / Refactoring / Design patterns**
 - Cloud computing, AWS deepening
-- Golang / Python
-- RESTful API / MSA (Micro Service Architecture)
-- CI/CD : Jenkins
-- Redis
-- Elasticsearch / Logstash / Kibana
 - vue.js
+- Python
+- Redis
+- ELK Stack (Elasticsearch / Logstash / Kibana)
+- MSA (Micro Service Architecture) 
 
 
 # My GitHub Contributions
@@ -56,12 +55,13 @@ layout: page
 - 2017.09 ~ Present / **Web Devloper at 12cm Lab**
 
 ### What did I do?
-- 12cm laboratory, Web Devloper (front & back)
+- 12cm laboratory, Web Devloper (front & back & DevOps)
   - Development
     - Java, Spring, Springboot, JPA, MyBatis, Mysql
     - GitLab, SVN
     - javaScript, html, css
     - Developed on AWS(EC2, RDS, S3)
+    - Jenkins
   - Operation (log monitoring, troubleshooting)
   - Technical Research
 
