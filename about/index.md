@@ -97,4 +97,4 @@ layout: page
 - [GitHub](https://github.com/gwonsungjun)
 - [Twitter](https://twitter.com/kwen5600)
 - [Mail](mailto:sungjunpizz@gmail)
-- [TIL](https://github.com/gwonsungjun/TIL)
+- [Wiki](https://github.com/gwonsungjun/wiki)
