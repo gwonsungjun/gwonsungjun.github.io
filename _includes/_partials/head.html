@@ -96,6 +96,18 @@
   <meta property="fb:app_id" content="{{ site.facebook_sdk.app_id }}" />
 {% endif %}
 
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:site" content="@kwen5600" />
+<meta name="twitter:creator" content="@kwen5600" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
+<meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+<meta property="og:image" content="{%if page.featured_image %}{{ page.featured_image | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.profile_url | prepend: site.baseurl | prepend: site.url }}{% endif %}" />
+<meta property="og:site_name" content="Sungjun .Dev" />
+<meta property="og:locale" content="ko_kr" />
 
 {% assign twitter_id = site.twitter %}
 {% assign google_plus = site.google_plus %}

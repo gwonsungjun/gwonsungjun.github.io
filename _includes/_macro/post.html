@@ -368,6 +368,10 @@
         </div>
         {% endif %}
 
+        <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+        <li class="twitter"><a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+
+
         {% unless is_index %}
         {% if site.vkontakte_api.enable and site.vkontakte_api.like %}
         {% assign vkontakte_api = true %}
