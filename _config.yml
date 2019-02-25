@@ -119,8 +119,8 @@ menu:
   home: /
   categories: /categories/
   about: /about/
-  archives: /archives/
-  tags: /tags/
+  #archives: /archives/
+  #tags: /tags/
   #search: /search/
   #commonweal: /404.html
 
