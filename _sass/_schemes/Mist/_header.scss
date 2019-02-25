@@ -1,17 +1,19 @@
 // Header
 // --------------------------------------------------
-.header { background: $header-footer-color; }
+.header {
+  background: $header-footer-color;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1)
+}
 .header:before {
-  position: fixed;
   z-index: 1;
   top: 0;
   display: block;
   content: "";
   width: 100%;
-  height: 10px;
+  height: 13px;
   background: #00d2ff;
   background: -webkit-gradient(linear,left top,right top,from(#3a7bd5),to(#00d2ff));
-  background: linear-gradient(90deg,#3a7bd5,#00d2ff);
+  background: linear-gradient(90deg, #74ebd5, #ACB6E5);
 }
 .header-inner {
   padding: 25px 0 20px;
