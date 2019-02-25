@@ -96,11 +96,11 @@ $font-weight-bolder       : 700;
 
 
 // Font size
-$font-size-base           : 16px;
+$font-size-base           : 15px;
 $font-size-small          : $font-size-base - 2px;
 $font-size-smaller        : $font-size-base - 3px;
 $font-size-large          : $font-size-base + 2px;
-$font-size-larger         : $font-size-base + 4px;
+$font-size-larger         : $font-size-base + 3px;
 
 
 // Headings font size
@@ -194,11 +194,11 @@ $pagination-active-border       : $grey-light;
 // Layout sizes
 // --------------------------------------------------
 
-$main-desktop                   : 740px;
-$main-desktop-large             : 800px;
+$main-desktop                   : 700px;
+$main-desktop-large             : 740px;
 
-$content-desktop                : 740px;
-$content-desktop-large          : 800px;
+$content-desktop                : 700px;
+$content-desktop-large          : 740px;
 $content-desktop-padding        : 40px;
 
 $sidebar-desktop                : 180px;
