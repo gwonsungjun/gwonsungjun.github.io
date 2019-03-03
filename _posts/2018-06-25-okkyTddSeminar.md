@@ -1,7 +1,7 @@
 ---
 title: '[OKKY 세미나] TDD 잘알못을 위한 돌직구 세미나 후기'  
 layout: post  
-tags : seminar, TDD, Okky
+tags : seminar, TDD, okky
 category: seminar
 subtitle: 2018.06.21 OKKY "TDD 잘알못을 위한 돌직구 세미나" Review
 author : sungjun

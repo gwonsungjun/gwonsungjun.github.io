@@ -1,7 +1,7 @@
 ---
 title: 'Jekyll, Google Analytics 사용법'  
 layout: post  
-tags : Google Analytics, jekyll
+tags : google analytics, jekyll
 category: jekyll
 subtitle: Jekyll에서 Google Analytics
 author : sungjun

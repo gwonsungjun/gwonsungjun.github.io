@@ -1,7 +1,7 @@
 ---
 title: 'Java Build Tool'  
 layout: post  
-tags : java, Build Tool, ant, maven, gradle
+tags : java, build tool, ant, maven, gradle
 category: java
 subtitle: Ant, Maven, Gradle 특징 설명 + Groovy 간단 정리
 author : sungjun
