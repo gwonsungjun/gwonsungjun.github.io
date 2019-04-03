@@ -18,6 +18,7 @@ spring boot 버전별로 설정 시 약간의 차이가 있으므로 주의.
 - spring boot 2.1.3 (2019.04.03 기준 최신 버전)
 - gradle 4.10.3
 - jdk 1.8
+- intellij
 
 ## 1. Create Root Project
 
@@ -119,7 +120,7 @@ dependencies {
 
 ## 7. common 프로젝트 build.gradle 설정
 - 예제 project >> [깃헙](https://github.com/gwonsungjun/gradle-multi-module) 확인
-- 위의 예제 project의 Common 프로젝트의 처럼 main 메소드가 없는 경우
+- 위의 예제 project의 Common 프로젝트처럼 main 메소드가 없는 경우
     - 아래와 같이 bootJar, jar enabled 설정을 해야한다.
 
 ``` gradle
@@ -138,13 +139,16 @@ dependencies {
 
 ## 8. 다른 Project에서 common project를 사용 할 경우
 
-다른 project에서 common project의 Entity 클래스와 Repsoitory를 사용하기 위해서는 `@EntityScan("com.sungjun.*")`, `@EnableJpaRepositories("com.sungjun.*")` 2개의 어노테이션을 설정 해줘야 한다.
+다른 project에서 common project의 Entity 클래스와 Repsoitory를 사용하기 위해서는 `@EntityScan("com.sungjun.*")`, `@EnableJpaRepositories("com.sungjun.*")` 2개의 어노테이션을 설정해 줘야 한다. (Common Project에 Entity 클래스와 Repository만 있는 경우에 한하여)
 
 - [api project의 SampleApiApplication class](https://github.com/gwonsungjun/gradle-multi-module/blob/master/sample-api/src/main/java/com/sungjun/api/SampleApiApplication.java) 참조
 
 
+## 마무리
+- 위와 같이 그래들 멀티 모듈 기본 설정이 완료되면 실제 개발을 하는 데 큰 문제가 없을 것이다.   
+- 방법만 제시하고 각각의 상세한 설명은 생략하였는데 [Gradle 멀티 프로젝트(모듈) 관리](https://jojoldu.tistory.com/123) 글과 같이 보면 이해가 조금 쉬울 것이다.(예제 프로젝트도 해당 블로그를 참고해서 작성하였다.)
 
 ## Links
-- [Gradle 멀티 프로젝트(모듈) 관리](https://okky.kr/article/375833)
+- [Gradle 멀티 프로젝트(모듈) 관리](https://jojoldu.tistory.com/123)
 - [gradle로 멀티 프로젝트 구성하기](https://github.com/hantomato/gradle-multi-proj)
 - [Gradle 에서 Multi 프로젝트 만들기](https://yookeun.github.io/java/2017/10/07/gradle-multi/)
