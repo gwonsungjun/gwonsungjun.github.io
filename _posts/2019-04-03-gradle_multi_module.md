@@ -141,7 +141,7 @@ dependencies {
 
 다른 project에서 common project의 Entity 클래스와 Repsoitory를 사용하기 위해서는 `@EntityScan("com.sungjun.*")`, `@EnableJpaRepositories("com.sungjun.*")` 2개의 어노테이션을 설정해 줘야 한다. (Common Project에 Entity 클래스와 Repository만 있는 경우에 한하여)
 
-- [api project의 SampleApiApplication class](https://github.com/gwonsungjun/gradle-multi-module/blob/master/sample-api/src/main/java/com/sungjun/api/SampleApiApplication.java) 참조
+- [예제 project의 API Module SampleApiApplication class](https://github.com/gwonsungjun/gradle-multi-module/blob/master/sample-api/src/main/java/com/sungjun/api/SampleApiApplication.java) 참조
 
 
 ## 마무리
