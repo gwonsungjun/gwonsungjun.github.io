@@ -147,3 +147,4 @@ dependencies {
 ## Links
 - [Gradle 멀티 프로젝트(모듈) 관리](https://okky.kr/article/375833)
 - [gradle로 멀티 프로젝트 구성하기](https://github.com/hantomato/gradle-multi-proj)
+- [Gradle 에서 Multi 프로젝트 만들기](https://yookeun.github.io/java/2017/10/07/gradle-multi/)
