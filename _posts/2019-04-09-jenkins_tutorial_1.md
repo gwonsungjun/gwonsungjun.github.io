@@ -1,7 +1,7 @@
 ---
 title: '1) Jenkins Tutorial - Installing Jenkins and GitLab with Docker'  
 layout: post  
-tags : jenkins, docker
+tags : jenkins, docker, gitlab
 category: jenkins
 subtitle: 도커를 이용해 젠킨스, 깃랩 설치하기.
 author : sungjun
@@ -133,7 +133,6 @@ services:
 		environment:
 			GITLAB_OMNIBUS_CONFIG: |
 				external_url = "gitlab.example.com"
-				# Add any other gitlab.rb configuration here, each on its own line
 		ports:
 			- "80:80"
 			- "443:443"
