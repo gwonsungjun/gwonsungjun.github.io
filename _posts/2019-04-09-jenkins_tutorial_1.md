@@ -76,7 +76,7 @@ docker-compose version
 
 ### 1-3. Jenkins Dockerfile 작성
 
-- dockerfile과 docker-compose 차이는 간단하게 설명하면 아래와 같고 더 자세한 설명은 [subicura님의 초보 위한 도커 안내서](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)를 참고합니다.
+- dockerfile과 docker-compose 차이는 간단하게 설명하면 아래와 같고 자세한 설명은 [docker compose 공식 문서](https://docs.docker.com/compose/overview/)를 참고합니다.
     - dockerfile : 이미지를 만드는 도구
     - docker-compose : 컨테이너를 만드는 도구
 - 나중에 설명할 것이지만 배포를 위해 zip, aws 명령이 필요합니다.
