@@ -7,11 +7,11 @@ subtitle: 도커를 이용해 젠킨스, 깃랩 설치하기.
 author : sungjun
 ---
 
-**도커를 이용해 젠킨스, 깃랩 설치하기.** 
+**도커 컴포즈를 이용해 젠킨스, 깃랩 설치하기.** 
 
 ---
 
-수많은 삽질을 통해 젠킨스를 사내에 구축하며 얻은 유용한 팁을 젠킨스를 처음 접하는 분들께 도움이 되고자 작성하게 되었습니다.   
+이번 시리즈 글은 수많은 삽질을 통해 젠킨스를 사내에 구축하며 얻은 유용한 팁을 젠킨스를 처음 접하는 분들께 도움이 되고자 작성하게 되었습니다.   
 Tutorial은 블로그에 단계별로 나눠 포스팅할 예정이고 pipeline script 외 기타 필요한 코드들을 [GitHub Repo](https://github.com/gwonsungjun/jenkins_tutorial)에 커밋할 것입니다.   
 Git Hosting service는 깃헙이 아닌 깃랩을 직접 설치해서 사용할 것입니다. (깃헙과 깃랩은 거의 유사하기 때문에 필요한 호스팅 서비스를 사용하면 될 것 같습니다.)
 
@@ -27,7 +27,7 @@ Git Hosting service는 깃헙이 아닌 깃랩을 직접 설치해서 사용할 
 
 ## Contents
 
-1. [Installing Jenkins and GitLab with Docker]()
+1. [Installing Jenkins and GitLab with Docker](https://gwonsungjun.github.io/articles/2019-04/jenkins_tutorial_1)
 2. Jenkins initial setting
 3. Create AWS EC2 Instance
 4. Registering Jenkins items using web ui
@@ -41,7 +41,8 @@ Git Hosting service는 깃헙이 아닌 깃랩을 직접 설치해서 사용할 
 
 ####  Windows
 - [Windows 10 : Pro, Enterprise or Education](https://docs.docker.com/docker-for-mac/install/)
-- Windows 10 : Home의 경우 이전에 작성한 [Windows 10 Home에서 Docker 설치 하기](https://gwonsungjun.github.io/articles/2018-01/DockerInstall) 글을 참조
+- Windows 10 : Home
+    - 이전에 작성한 [Windows 10 Home에서 Docker 설치 하기](https://gwonsungjun.github.io/articles/2018-01/DockerInstall) 글을 참조
 
 #### MacOS
 - <https://docs.docker.com/docker-for-mac/install/> 참고
@@ -109,7 +110,7 @@ RUN pip install --upgrade pip
 
 Dockerfile-jenkins와 동일 디렉토리에서 `vi docker-compose.yml`
 
-```dockerfile
+```yml
 version: "3.7"
 
 services:
