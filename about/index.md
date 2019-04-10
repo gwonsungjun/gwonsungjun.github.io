@@ -5,7 +5,7 @@ layout: page
 
 # Introduce - Sungjun Gwon
 ---  
-- I'm a developer working in Korea Pangyo.   
+- I'm a developer working in Korea.   
 - I work on Web development, both back-end and front-end. However, I am more interested in the backend.   
 - I have a passion for development (continuous self-development) and good communication.       
 - I like listening to music, watching movies, playing soccer, and pursuing a minimalial life.      
@@ -25,24 +25,25 @@ layout: page
 # Skill Set
 - Java / JavaScript
 - Spring / Spring Boot
-- JPA, Hibernate / Mybatis
+- JPA(Hibernate) / Mybatis
 - Gradle / Maven
 - Tomcat / Nginx
 - MySQL / Oracle
 - Linux : Ubuntu
-- AWS / Docker / Jenkins
+- AWS
+- Docker / Jenkins
 - HTML5 / CSS3
 - Git / Github / GitLab / SVN
-- IntelliJ / Eclipse / Vim / Visual Studio Code
+- IntelliJ / WebStorm / DataGrip / Vim / Visual Studio Code
 
 # Learning
 - **OOP / TDD / CleanCode / Refactoring / Design patterns**
 - Cloud computing, AWS deepening
-- vue.js
-- Python
-- Redis
 - ELK Stack (Elasticsearch / Logstash / Kibana)
-- MSA (Micro Service Architecture) 
+- MSA (Micro Service Architecture), OAuth
+- Kubernetes
+- Functional programming
+- ES6, NodeJS, NPM, Express.js, Elasticsearch, MongoDB
 
 
 # My GitHub Contributions
@@ -52,20 +53,32 @@ layout: page
 # Work Experience
 
 ### Summary
-- 2017.09 ~ Present / **Web Devloper at 12cm Lab**
+- 2017.09 ~ 2019.04 / **Web Developer at 12cm Lab**
 
 ### What did I do?
-- 12cm laboratory, Web Devloper (front & back & DevOps)
+- 12cm laboratory, Web Developer (back-end & DevOps)
   - Development
-    - Java, Spring, Springboot, JPA, MyBatis, Mysql
+    - Java, Spring, Spring boot, JPA, MyBatis, Maven, Gradle, Mysql
+    - Spring boot batch, quartz framework
     - GitLab, SVN
+    - Jenkins, Docker
     - javaScript, html, css
-    - Developed on AWS(EC2, RDS, S3)
-    - Jenkins
+    - Intellij, WebStorm, DataGrip
+    - Developed on AWS (EC2, RDS, S3)
   - Operation (log monitoring, troubleshooting)
   - Technical Research
+  - 기존 레거시 코드 리팩토링 및 객체 지향적인 개발을 위한 클린 코딩 
 
 # Experiences
+
+### 2019
+- **[Community Activities]**
+  - [2019.02.23] [KCD(Korea Community Day) 2019](https://festa.io/events/200)
+  - [2019.04.17 ~ 18] [AWS Summit Seoul](https://aws.amazon.com/ko/events/summits/seoul/)
+- [Other activities]
+  - [DDD - Designer Developer Dayday](https://www.facebook.com/dddstudy/) 사이드 프로젝트 및 스터디 
+
+### 2018
 - **[Community Activities]**
   - [2018.10.18] [OKKYCON:2018 - The Real TDD](http://www.okkycon.com/)
   - [2018.10.11] [Deview 2018](https://deview.kr/2018/pick/6731)
@@ -87,11 +100,10 @@ layout: page
   - [2018.06.30] AWSKRUG Hands-on Lab 2018 : Serverless #1 - 손쉽게 시작하는 Serverless Architecture
   - [2018.06.16] AWSKRUG Hands-on Lab 2018 :  Container #2 - 아마존 ECS에 자바 마이크로 서비스 구축하기
   - [2018.06.02] [AWSKRUG Hands-on Lab 2018 : Container #1 - Docker](https://gwonsungjun.github.io/seminar/2018/06/02/awsDocker/)
-- [Personal Project]
-  - developing...  
 - [Other activities]
   - [자바카페 커뮤니티](https://www.facebook.com/%EC%9E%90%EB%B0%94%EC%B9%B4%ED%8E%98-667190409958896/?ref=br_rs) 스프링5 레시피 스터디
   - [트레바리 독서모임](https://trevari.co.kr/) 보통의 존재 1809 시즌 
+  - 스프링 부트 스터디 ( 처음 배우는 스프링 부트 2)
 
 # Contacts
 - [GitHub](https://github.com/gwonsungjun)
