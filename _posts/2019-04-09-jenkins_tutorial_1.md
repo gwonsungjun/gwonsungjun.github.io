@@ -24,6 +24,7 @@ Git Hosting service는 깃헙이 아닌 깃랩을 직접 설치해서 사용할 
 - Java8
 - Gradle
 - docker 18.09.2
+- docker-compose 1.23.2
 
 ## Contents
 
@@ -90,7 +91,7 @@ FROM jenkins/jenkins:lts
 # 2. 명령을 실행할 사용자 설정
 USER root
     
-# 3. Jenkins build 시 zip command install
+# 3. Jenkins build 시 필요한 zip command install
 RUN apt-get update
 RUN apt-get install -y zip
     
