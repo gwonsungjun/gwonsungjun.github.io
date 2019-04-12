@@ -47,7 +47,7 @@ Jenkins 첫 메인 화면에서 Jenkin 관리 > 플러그인 관리로 이동합
 ![jenkins_plugin_gitlab](/assets/images/usingimages/jenkins_tutorial/jenkins_plugin_gitlab.png)
 
 다음 `slack`을 검색해서 `Slack Notification`을 선택한 뒤 "지금 다운로드하고 재시작 후 설치하기"를 클릭합니다.
-- 차후에 젠킨스 빌드 결과를 slack으로 전송할 것이기 때문에 미리 설치합니다.
+- Slack Notification은 차후에 젠킨스 빌드 결과를 slack으로 전송할 것이기 때문에 미리 설치합니다.
     
 ![jenkins_plugin_slack](/assets/images/usingimages/jenkins_tutorial/jenkins_plugin_slack.png)
 
@@ -156,6 +156,6 @@ Name, Expires at, Scopes를 선택 및 입력하고 Create personal access token
 
 이번 시간에는 젠킨스와 깃랩의 기본 설정을 해보았습니다.   
 젠킨스와 깃랩을 처음 접하시는 분들은 조금 복잡해 보일 수도 있다고 생각합니다. 궁금한 점이 있으면 언제나 댓글에 질문을 남겨주세요.   
-다음 시간에는 배포할 서버 AWS EC2 인스턴스를 생성해보도록 하겠습니다.
+다음 시간에는 배포할 서버(AWS EC2)를 생성해보도록 하겠습니다.
 감사합니다.
 
