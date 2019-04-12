@@ -17,7 +17,7 @@ author : sungjun
 
 1. [Installing Jenkins and GitLab with Docker](https://gwonsungjun.github.io/articles/2019-04/jenkins_tutorial_1)
 2. [Jenkins, GitLab initial setting](https://gwonsungjun.github.io/articles/2019-04/jenkins_tutorial_2)
-3. [Create AWS EC2 Instance]((https://gwonsungjun.github.io/articles/2019-04/jenkins_tutorial_3))
+3. [Create AWS EC2 Instance](https://gwonsungjun.github.io/articles/2019-04/jenkins_tutorial_3)
 4. Registering Jenkins items using web ui
 5. Registering Jenkins items using pipeline
 
@@ -39,7 +39,7 @@ author : sungjun
 
 ![aws_3](/assets/images/usingimages/jenkins_tutorial/aws_3.png)
 
-### 3-3. AMI((Amazon Machine Image) 선택
+### 3-3. AMI(Amazon Machine Image) 선택
 
 저는 `Ubuntu Server 18.04 LTS`를 선택하겠습니다.
 
