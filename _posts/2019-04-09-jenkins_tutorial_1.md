@@ -29,7 +29,7 @@ Git Hosting service는 깃헙이 아닌 깃랩을 직접 설치해서 사용할 
 ## Contents
 
 1. [Installing Jenkins and GitLab with Docker](https://gwonsungjun.github.io/articles/2019-04/jenkins_tutorial_1)
-2. Jenkins initial setting
+2. [Jenkins initial setting](https://gwonsungjun.github.io/articles/2019-04/jenkins_tutorial_2)
 3. Create AWS EC2 Instance
 4. Registering Jenkins items using web ui
 5. Registering Jenkins items using pipeline
