@@ -125,13 +125,13 @@ secret token 역시 젠킨스에서 생성한 token을 입력합니다.
 
 ![jenkins_build](/assets/images/usingimages/jenkins_tutorial/jenkins_build.png)
 
-모든 설정이 끝나고 저장을 하시면 드디어 하나의 item 등록이 완료 되었습니다.
-
 ### 4-9. 빌드 후 조치 설정
 
 빌드 결과를 슬랙으로 전송받기 위해 마지막으로 빌드 후 조치 추가 > `Slack notifications`를 선택해 설정을 해줍니다.
 
 ![slack_notify](/assets/images/usingimages/jenkins_tutorial/slack_notify.png)
+
+슬랙 Noti 설정까지 끝내고 저장을 하시면 드디어 하나의 item 등록이 완료 되었습니다.
 
 ### 4-10. Deploy server(aws ec2) 설정
 
