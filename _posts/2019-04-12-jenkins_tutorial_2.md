@@ -19,7 +19,7 @@ author : sungjun
 1. [Installing Jenkins and GitLab with Docker](https://gwonsungjun.github.io/articles/2019-04/jenkins_tutorial_1)
 2. [Jenkins, GitLab initial setting](https://gwonsungjun.github.io/articles/2019-04/jenkins_tutorial_2)
 3. [Create AWS EC2 Instance](https://gwonsungjun.github.io/articles/2019-04/jenkins_tutorial_3)
-4. Registering Jenkins items using web ui
+4. [Registering Jenkins items using web ui](https://gwonsungjun.github.io/articles/2019-04/jenkins_tutorial_4)
 5. Registering Jenkins items using pipeline
 
 ## 2. Jenkins, GitLab initial setting
