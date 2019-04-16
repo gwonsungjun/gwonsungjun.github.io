@@ -151,7 +151,7 @@ secret token 역시 젠킨스에서 생성한 token을 입력합니다.
 
 ### 4-12. Result
 
-빌드가 완료되고 성공하면 해당 인스턴스로 ssh 접속해서 빌드 결과 jar 파일이 있는 것을 확인 하실 수 있습니다.   
+빌드가 성공하고 해당 인스턴스로 ssh 접속해보면 빌드 결과물인 jar 파일이 있는 것을 확인 하실 수 있습니다.   
 
 ![build_result_file](/assets/images/usingimages/jenkins_tutorial/build_result_file.png)
 
