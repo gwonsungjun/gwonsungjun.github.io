@@ -239,7 +239,7 @@ def notifySlack(String buildStatus) {
 
 ![ec2_mkdir](/assets/images/usingimages/jenkins_tutorial/ec2_mkdir.png)
 
-### 5-11. Git Push
+### 5-12. Git Push
 
 Jenkinsfile.goorvy 파일이 생성 및 작성된 상태로 gitlab으로 push하면 jenkins에서 자동으로 빌드를 수행하는 것을 확인할 수 있습니다.
 - (테스트하느라 빌드 번호가 6번인데 원래는 1번일 것입니다!)
