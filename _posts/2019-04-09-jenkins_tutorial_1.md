@@ -169,7 +169,7 @@ docker-compose up -d [service...] # 재실행
 ![gitlab-main](/assets/images/usingimages/jenkins_tutorial/gitlab-main.png)
 
 
-### 마무리
+## 마무리
 
 docker-compose를 이용해 간편하게 Jenkins와 GitLab을 설치하고 실행시켜 보았습니다.   
 다음 시간에는 Jenkins, GitLab login 및 기본적인 Jenkins Setting에 대해 진행하겠습니다.   

@@ -146,7 +146,7 @@ Remote Server SSH Private key를 등록합니다.
 - `ID` : 젠킨스 내 식별 ID (잘 기억해둡니다! jenkinsfile 작성 시 사용할 것 입니다.)
 - `Description` : 부연 설명
 - `Username` : ssh 접속 아이디
-- private key > Enter directly > key : 복사한 pem file 문자열 붙여넣기 
+- `private key > Enter directly > key` : 복사한 pem file 문자열 붙여넣기 
 
 ![jenkins_pipeline_credentials](/assets/images/usingimages/jenkins_tutorial/jenkins_pipeline_credentials.png)
 
@@ -253,7 +253,7 @@ Jenkinsfile.goorvy 파일이 생성 및 작성된 상태로 gitlab으로 push하
 
 또한, 슬랙으로 성공 메시지가 전송될 것 입니다.
 
-### 마무리
+## 마무리
 
 이번 시간에는 파이프라인 스크립트를 이용해서 젠킨스 item을 등록해보았습니다.   
 Web UI를 통해 item을 등록하는 방식에 비해 훨씬 간단하지 않으셨나요?   

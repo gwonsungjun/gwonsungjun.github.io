@@ -159,7 +159,7 @@ secret token 역시 젠킨스에서 생성한 token을 입력합니다.
 
 ![success_slack_message](/assets/images/usingimages/jenkins_tutorial/success_slack_message.png) 
 
-### 마무리
+## 마무리
 
 이번 시간에는 실제 젠킨스 item을 등록해보았습니다.   
 실제 item을 등록해보니 어떤 신가요? 사용하는데 번거롭거나 불편하진 않으셨나요?               
@@ -167,7 +167,7 @@ Web UI를 통해 item을 등록하는 방식은 사용자가 배포할 서버를
 이를 해결하고자 jenkins pipeline을 사용해볼 것 인데요. 자세한 것은 다음 시간에 소개하도록 하겠습니다.   
 감사합니다. 궁금한 점이 있으시거나 잘못된 점이 있다면 댓글 남겨 주시기 바랍니다. 
 
-### Links
+## Links
 - <https://hreeman.tistory.com/m/136>
 - <https://yookeun.github.io/tools/2018/04/14/jenkins-remote/>
 

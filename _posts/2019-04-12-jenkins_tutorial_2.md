@@ -152,7 +152,7 @@ Name, Expires at, Scopes를 선택 및 입력하고 Create personal access token
 - Credentials : 위 2-7에서 생성한 Credentials를 등록
 - Test Connection > Success 확인되면 SAVE
 
-### 마무리
+## 마무리
 
 이번 시간에는 젠킨스와 깃랩의 기본 설정을 해보았습니다.   
 젠킨스와 깃랩을 처음 접하시는 분들은 조금 복잡해 보일 수도 있다고 생각합니다. 궁금한 점이 있으면 언제나 댓글에 질문을 남겨주세요.   
