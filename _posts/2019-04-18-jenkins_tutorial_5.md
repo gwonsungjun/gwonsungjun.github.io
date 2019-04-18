@@ -166,6 +166,7 @@ node {
         srcBuild()
         unitTest()
         deploy()
+        notifySlack('SUCCESS')
     } catch (env) {
         notifySlack('FAIL')
         throw env
