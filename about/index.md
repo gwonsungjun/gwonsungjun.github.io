@@ -4,7 +4,6 @@ layout: page
 ---
 
 # Introduce - Sungjun Gwon
----  
 - I'm a developer working in Korea.   
 - I work on Web development, both back-end and front-end. However, I am more interested in the backend.   
 - I have a passion for development (continuous self-development) and good communication.       
@@ -16,35 +15,51 @@ layout: page
 >
 > 누군가를 미워하고 있다면, 그 사람의 모습 속에 보이는 자신의 일부분인 것을 미워하는 것이다. 나의 일부가 아닌 것은 거슬리지 않는다.
 
-# Interests
+# interest
 - Simple
 - Automation
 - Optimization
 - Legacy cleaning
+- Documentation
 
 # Skill Set
-- Java / JavaScript
-- Spring / Spring Boot
-- JPA(Hibernate) / Mybatis
-- Gradle / Maven
-- Tomcat / Nginx
-- MySQL / Oracle
-- Linux : Ubuntu
-- AWS
-- Docker / Jenkins
-- HTML5 / CSS3
-- Git / Github / GitLab / SVN
-- IntelliJ / WebStorm / DataGrip / Vim / Visual Studio Code
+
+- Back-end
+  - Java
+    - Spring / Spring Boot
+    - JPA(Hibernate) / Mybatis
+    - Gradle / Maven
+    - Tomcat
+  - JavaScript
+    - Node.js
+    - Express.js
+    - Sequelize
+  - PHP
+- Database
+  - MySQL / Oracle
+  - MongoDB
+- Front-end
+  - HTML5 / CSS3
+- Etc
+  - AWS
+  - Ubuntu
+  - Nginx
+  - Docker
+  - Jenkins
+  - Git / Github / GitLab
+  - IntelliJ / WebStorm / DataGrip / Vim / Visual Studio Code
 
 # Learning
-- **OOP / TDD / CleanCode / Refactoring / Design patterns**
+- TDD / DDD / CleanCode / Refactoring / Design patterns
+- Object Oriented Programming / Functional programming
+- Agile
+- TypeScript / Kotlin
 - Cloud computing, AWS deepening
-- ELK Stack (Elasticsearch / Logstash / Kibana)
-- MSA (Micro Service Architecture), OAuth
+- Terraform
 - Kubernetes
-- Functional programming
-- ES6, NodeJS, NPM, Express.js, Elasticsearch, MongoDB
-
+- MSA (Micro Service Architecture), OAuth
+- Elasticsearch
+- React.js
 
 # My GitHub Contributions
 
@@ -53,15 +68,29 @@ layout: page
 # Work Experience
 
 ### Summary
-- 2017.09 ~ 2019.04 / **Web Developer at 12cm Lab**
+- 2019.04 ~ / **Back-end Developer at Seoul store**
+- 2017.09 ~ 2019.04 / **Back-end Developer at 12cm Lab**
 
 ### What did I do?
-- 12cm laboratory, Web Developer (back-end & DevOps)
+- Seoul store, Back-end Developer 
   - Development
-    - Java, Spring, Spring boot, JPA, MyBatis, Maven, Gradle, Mysql
+      - Javascript
+      - Node.js, Express.js, Sequelize, Mongoose
+      - Mysql, MongoDB, Elasticsearch
+      - Travis CI, Codecov
+      - Docker
+      - GitHub
+      - WebStorm, Intellij, DataGrip
+      - AWS (ECS, Fargate, Lambda, ...)
+  - Operation (log monitoring, troubleshooting)
+- 12cm laboratory, Back-end Developer (+ DevOps)
+  - Development
+    - Java, Spring, Spring boot, JPA, MyBatis, Maven, Gradle
     - Spring boot batch, quartz framework
+    - Mysql
     - GitLab, SVN
-    - Jenkins, Docker
+    - Jenkins
+    - Docker
     - javaScript, html, css
     - Intellij, WebStorm, DataGrip
     - Developed on AWS (EC2, RDS, S3)
@@ -73,13 +102,20 @@ layout: page
 
 ### 2019
 - **[Community Activities]**
-  - [2019.02.23] [KCD(Korea Community Day) 2019](https://festa.io/events/200)
+  - [2019.07.23] [Tech야,놀자 - Server-side Node.js with TypeScript](https://yanolja.github.io/2019/07/tech_yanolja)
+  - [2019.07.10] [하시코프 사용자 모임 세 번째 서울 밋업](https://festa.io/events/359)
+  - [2019.06.] [99CON - 나, 성과평가 어쩌지?](https://www.notion.so/8464cbc53c08494299d31f5c46ed67ef)
+  - [2019.04.27] [For.D 두 번째 행사, 나의 개발 이야기.](https://festa.io/events/259)
+  - [2019.04.25] [아이스크림 홈런 관측성 개선 세미나 - 레거시 관측성 올리기](https://festa.io/events/258)
   - [2019.04.17 ~ 18] [AWS Summit Seoul](https://aws.amazon.com/ko/events/summits/seoul/)
+  - [2019.02.23] [KCD(Korea Community Day) 2019](https://festa.io/events/200)
+  
 - [Other activities]
   - [DDD - Designer Developer Dayday](https://www.facebook.com/dddstudy/) 사이드 프로젝트 및 스터디 
 
 ### 2018
 - **[Community Activities]**
+  - [2018.11.10] [KSUG 2018년 하반기 세미나 - 스프링 기반 REST API 개발](http://www.ksug.org/seminar/20181110/)
   - [2018.10.18] [OKKYCON:2018 - The Real TDD](http://www.okkycon.com/)
   - [2018.10.11] [Deview 2018](https://deview.kr/2018/pick/6731)
   - [2018.09.04] [if Kakao 개발자 컨퍼런스](https://if.kakao.com/)
