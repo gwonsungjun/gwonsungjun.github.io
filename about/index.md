@@ -33,7 +33,7 @@ layout: page
   - JavaScript
     - Node.js
     - Express.js
-    - Sequelize
+    - Sequelize, Mongoose
   - PHP
 - Database
   - MySQL / Oracle
