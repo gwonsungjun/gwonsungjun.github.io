@@ -102,7 +102,6 @@ layout: page
 
 ### 2019
 - **[Community Activities]**
-  - [2019.07.23] [Tech야,놀자 - Server-side Node.js with TypeScript](https://yanolja.github.io/2019/07/tech_yanolja)
   - [2019.07.10] [하시코프 사용자 모임 세 번째 서울 밋업](https://festa.io/events/359)
   - [2019.06.15] [99CON - 나, 성과평가 어쩌지?](https://www.notion.so/8464cbc53c08494299d31f5c46ed67ef)
   - [2019.04.27] [For.D 두 번째 행사, 나의 개발 이야기.](https://festa.io/events/259)
