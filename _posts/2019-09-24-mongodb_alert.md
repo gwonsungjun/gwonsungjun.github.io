@@ -40,7 +40,7 @@ Atlas Document에 자세히 나와 있지만 간단하게 설명하면 Query Tar
    
 소스 단에서 mongoose 등을 이용해 스키마를 생성하지 않았다면 직접 shell 또는 gui (mogodb compass)에 접속하여 index를 생성하면 해결될 것이다.
    
-문제 해결 후 Qury Targeting Metric을 확인해보면 문제가 되는 지점에서는 1k까지 치솟았었는데 index 설정 후 확 떨어지는 것을 확인할 수 있.
+문제 해결 후 Qury Targeting Metric을 확인해보면 문제가 되는 지점에서는 1k까지 치솟았었는데 index 설정 후 확 떨어지는 것을 확인할 수 있다.
    
 ![atlas-query-targeting-metric](/assets/images/usingimages/atlas-query-targeting-metric.png)
       
