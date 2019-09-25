@@ -38,7 +38,7 @@ Atlas Document에 자세히 나와 있지만 간단하게 설명하면 Query Tar
    
 다행히 최근 들어 많이 사용되는 collection이 있었는데 인덱스가 걸려있지 않은 것을 확인하였고 mongoose로 schema를 생성해 사용 중이었기 때문에 `indxe:true` 옵션을 추가 및 배포하여 해결하였다.
    
-소스 단에서 mongoose 등을 이용해 스키마를 설정하지 않았다면 직접 shell 또는 gui (mogodb compass)에 접속하여 index를 생성하면 해결될 것이다.
+소스 단에서 mongoose 등을 이용해 스키마를 생성하지 않았다면 직접 shell 또는 gui (mogodb compass)에 접속하여 index를 생성하면 해결될 것이다.
    
 문제 해결 후 Qury Targeting Metric을 확인해보면 문제가 되는 지점에서는 1k까지 치솟았었는데 index 설정 후 확 떨어지는 것을 확인할 수 있.
    
