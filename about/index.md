@@ -34,7 +34,6 @@ layout: page
     - Node.js
     - Express.js
     - Sequelize, Mongoose
-  - PHP
 - Database
   - MySQL / Oracle
   - MongoDB
@@ -56,10 +55,7 @@ layout: page
 - TypeScript / Kotlin
 - Cloud computing, AWS deepening
 - Terraform
-- Kubernetes
-- MSA (Micro Service Architecture), OAuth
 - Elasticsearch
-- React.js
 
 # My GitHub Contributions
 
@@ -77,7 +73,7 @@ layout: page
       - Javascript
       - Node.js, Express.js, Sequelize, Mongoose
       - Mysql, MongoDB, Elasticsearch
-      - Travis CI, Codecov
+      - Travis CI, AWS codePipeline, Codecov
       - Docker
       - GitHub
       - WebStorm, Intellij, DataGrip
@@ -102,6 +98,11 @@ layout: page
 
 ### 2019
 - **[Community Activities]**
+  - [2019.09.26] [우아한 Tech 세미나: 우아한 스프링 배치](https://festa.io/events/359)
+  - [2019.09.25] [AWS 컨테이너 소모임: 촌스러운 CodeBuild, 세련되게 사용하기](https://www.meetup.com/ko-KR/awskrug/events/264425998/)
+  - [2019.09.21] [99CON - 이력서](https://gwonsungjun.github.io/articles/2019-09/99con-resume)
+  - [2019.09.07] [슬기로운 개발생활](https://event-us.kr/ted/event/9635)
+  - [2019.08.29] [우아한 Tech 세미나: 우아한 멀티 모듈](https://www.youtube.com/watch?v=nH382BcycHc)
   - [2019.07.10] [하시코프 사용자 모임 세 번째 서울 밋업](https://festa.io/events/359)
   - [2019.06.15] [99CON - 나, 성과평가 어쩌지?](https://www.notion.so/8464cbc53c08494299d31f5c46ed67ef)
   - [2019.04.27] [For.D 두 번째 행사, 나의 개발 이야기.](https://festa.io/events/259)
