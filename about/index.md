@@ -97,7 +97,7 @@ layout: page
 # Experiences
 
 <details>
-👉🏼 <summary style="text-decoration: underline;"> 2019 Community Activities </summary>
+<summary style="text-decoration: underline;"> 👉🏼 2019 Community Activities </summary>
 <div markdown="1">
 
 - Seminar
@@ -119,7 +119,7 @@ layout: page
 </details>
 
 <details>
-👉🏼 <summary style="text-decoration: underline;"> 2018 Community Activities </summary>
+<summary style="text-decoration: underline;"> 👉🏼 2018 Community Activities </summary>
 <div markdown="1">
 
 - Seminar
