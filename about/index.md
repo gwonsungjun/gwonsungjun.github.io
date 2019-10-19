@@ -113,33 +113,38 @@ layout: page
 - [Other activities]
   - [DDD - Designer Developer Dayday](https://www.facebook.com/dddstudy/) 사이드 프로젝트 및 스터디 
 
-### 2018
-- **[Community Activities]**
-  - [2018.11.10] [KSUG 2018년 하반기 세미나 - 스프링 기반 REST API 개발](http://www.ksug.org/seminar/20181110/)
-  - [2018.10.18] [OKKYCON:2018 - The Real TDD](http://www.okkycon.com/)
-  - [2018.10.11] [Deview 2018](https://deview.kr/2018/pick/6731)
-  - [2018.09.04] [if Kakao 개발자 컨퍼런스](https://if.kakao.com/)
-  - [2018.08.31] [Popit 멘토링 데이](https://festa.io/events/70)
-  - [2018.07.28] [하시코프 한국 사용자 밋업(HashiCorp Korea User Group MeetUp)](https://festa.io/events/45)
-  - [2018.06.27] [제 5회 마스터즈 오픈 세미나, 코드 스쿼드](https://gwonsungjun.github.io/seminar/2018/06/27/codesquadSeminar/#)
-  - [2018.06.21] [OKKY, TDD 잘알못을 위한 돌직구 세미나](https://gwonsungjun.github.io/seminar/2018/06/25/okkyTddSeminar/#)
-  - [2018.06.10] Google I/O Extended 2018 Seoul
-  - [2018.05.19] [Oracle Developer Meetup - Understanding Kafka](https://gwonsungjun.github.io/seminar/2018/05/20/6th_oracle_kafka/)
-  - [2018.04.28] [Ubuntu 18.04 Release Party in Seoul](https://gwonsungjun.github.io/seminar/2018/04/29/ubuntuRelaseParty/)
-  - [2018.04.21] [SPRING CAMP 2018 (with Coupang)](https://gwonsungjun.github.io/seminar/2018/04/22/springCamp2018/)
-  - [2018.04.13] [9XD: Young, Wild Coders - Hello! New Face; The eleventh meeting](https://gwonsungjun.github.io/seminar/2018/04/15/9xd11meeting/)
-  - [2018.03.18] [Oracle Developer Meetup - Future Java and the Microservice in Your Hands!](https://gwonsungjun.github.io/seminar/2018/03/22/4th_oracle_meetup/)
-  - [2018.02.11] [GDG Campus 2018 Meetup](https://gwonsungjun.github.io/seminar/2018/02/22/GdgCampusKoreaMeetup/)
-  - [2018.01.27] [Oracle Developer Meetup - Serverless Computing](https://gwonsungjun.github.io/seminar/2018/01/27/3rd_oracle_meetup/)
+
+<details>
+<summary>2018 Community Activities</summary>
+<p>
+- [2018.11.10] [KSUG 2018년 하반기 세미나 - 스프링 기반 REST API 개발](http://www.ksug.org/seminar/20181110/)
+- [2018.10.18] [OKKYCON:2018 - The Real TDD](http://www.okkycon.com/)
+- [2018.10.11] [Deview 2018](https://deview.kr/2018/pick/6731)
+- [2018.09.04] [if Kakao 개발자 컨퍼런스](https://if.kakao.com/)
+- [2018.08.31] [Popit 멘토링 데이](https://festa.io/events/70)
+- [2018.07.28] [하시코프 한국 사용자 밋업(HashiCorp Korea User Group MeetUp)](https://festa.io/events/45)
+- [2018.06.27] [제 5회 마스터즈 오픈 세미나, 코드 스쿼드](https://gwonsungjun.github.io/seminar/2018/06/27/codesquadSeminar/#)
+- [2018.06.21] [OKKY, TDD 잘알못을 위한 돌직구 세미나](https://gwonsungjun.github.io/seminar/2018/06/25/okkyTddSeminar/#)
+- [2018.06.10] Google I/O Extended 2018 Seoul
+- [2018.05.19] [Oracle Developer Meetup - Understanding Kafka](https://gwonsungjun.github.io/seminar/2018/05/20/6th_oracle_kafka/)
+- [2018.04.28] [Ubuntu 18.04 Release Party in Seoul](https://gwonsungjun.github.io/seminar/2018/04/29/ubuntuRelaseParty/)
+- [2018.04.21] [SPRING CAMP 2018 (with Coupang)](https://gwonsungjun.github.io/seminar/2018/04/22/springCamp2018/)
+- [2018.04.13] [9XD: Young, Wild Coders - Hello! New Face; The eleventh meeting](https://gwonsungjun.github.io/seminar/2018/04/15/9xd11meeting/)
+- [2018.03.18] [Oracle Developer Meetup - Future Java and the Microservice in Your Hands!](https://gwonsungjun.github.io/seminar/2018/03/22/4th_oracle_meetup/)
+- [2018.02.11] [GDG Campus 2018 Meetup](https://gwonsungjun.github.io/seminar/2018/02/22/GdgCampusKoreaMeetup/)
+- [2018.01.27] [Oracle Developer Meetup - Serverless Computing](https://gwonsungjun.github.io/seminar/2018/01/27/3rd_oracle_meetup/)
 - [Hands-On]
-  - [2018.07.14]  AWSKRUG Hands-on Lab 2018 : Container #3, Kubernetes on AWS
-  - [2018.06.30] AWSKRUG Hands-on Lab 2018 : Serverless #1 - 손쉽게 시작하는 Serverless Architecture
-  - [2018.06.16] AWSKRUG Hands-on Lab 2018 :  Container #2 - 아마존 ECS에 자바 마이크로 서비스 구축하기
-  - [2018.06.02] [AWSKRUG Hands-on Lab 2018 : Container #1 - Docker](https://gwonsungjun.github.io/seminar/2018/06/02/awsDocker/)
+- [2018.07.14]  AWSKRUG Hands-on Lab 2018 : Container #3, Kubernetes on AWS
+- [2018.06.30] AWSKRUG Hands-on Lab 2018 : Serverless #1 - 손쉽게 시작하는 Serverless Architecture
+- [2018.06.16] AWSKRUG Hands-on Lab 2018 :  Container #2 - 아마존 ECS에 자바 마이크로 서비스 구축하기
+- [2018.06.02] [AWSKRUG Hands-on Lab 2018 : Container #1 - Docker](https://gwonsungjun.github.io/seminar/2018/06/02/awsDocker/)
 - [Other activities]
-  - [자바카페 커뮤니티](https://www.facebook.com/%EC%9E%90%EB%B0%94%EC%B9%B4%ED%8E%98-667190409958896/?ref=br_rs) 스프링5 레시피 스터디
-  - [트레바리 독서모임](https://trevari.co.kr/) 보통의 존재 1809 시즌 
-  - 스프링 부트 스터디 ( 처음 배우는 스프링 부트 2)
+- [자바카페 커뮤니티](https://www.facebook.com/%EC%9E%90%EB%B0%94%EC%B9%B4%ED%8E%98-667190409958896/?ref=br_rs) 스프링5 레시피 스터디
+- [트레바리 독서모임](https://trevari.co.kr/) 보통의 존재 1809 시즌 
+- 스프링 부트 스터디 ( 처음 배우는 스프링 부트 2)
+</p>
+</details>
+
 
 # Contacts
 - [GitHub](https://github.com/gwonsungjun)
