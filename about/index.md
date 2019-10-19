@@ -97,10 +97,10 @@ layout: page
 # Experiences
 
 <details>
-<summary style="text-decoration: underline;"> 👉🏼 2019 Community Activities </summary>
+👉🏼 <summary style="text-decoration: underline;"> 2019 Community Activities </summary>
 <div markdown="1">
 
-- ****
+- Seminar
   - [2019.09.26] [우아한 Tech 세미나: 우아한 스프링 배치](https://festa.io/events/359)
   - [2019.09.25] [AWS 컨테이너 소모임: 촌스러운 CodeBuild, 세련되게 사용하기](https://www.meetup.com/ko-KR/awskrug/events/264425998/)
   - [2019.09.21] [99CON - 이력서](https://gwonsungjun.github.io/articles/2019-09/99con-resume)
@@ -119,10 +119,10 @@ layout: page
 </details>
 
 <details>
-<summary style="text-decoration: underline;"> 👉🏼 2018 Community Activities </summary>
+👉🏼 <summary style="text-decoration: underline;"> 2018 Community Activities </summary>
 <div markdown="1">
 
-- ****
+- Seminar
   - [2018.11.10] [KSUG 2018년 하반기 세미나 - 스프링 기반 REST API 개발](http://www.ksug.org/seminar/20181110/)
   - [2018.10.18] [OKKYCON:2018 - The Real TDD](http://www.okkycon.com/)
   - [2018.10.11] [Deview 2018](https://deview.kr/2018/pick/6731)
