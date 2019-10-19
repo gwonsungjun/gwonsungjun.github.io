@@ -96,8 +96,12 @@ layout: page
 
 # Experiences
 
-### 2019
-- **[Community Activities]**
+### 
+<details>
+<summary> 👉🏼 2019 Community Activities </summary>
+<div markdown="1">
+
+- ****
   - [2019.09.26] [우아한 Tech 세미나: 우아한 스프링 배치](https://festa.io/events/359)
   - [2019.09.25] [AWS 컨테이너 소모임: 촌스러운 CodeBuild, 세련되게 사용하기](https://www.meetup.com/ko-KR/awskrug/events/264425998/)
   - [2019.09.21] [99CON - 이력서](https://gwonsungjun.github.io/articles/2019-09/99con-resume)
@@ -112,7 +116,8 @@ layout: page
   
 - [Other activities]
   - [DDD - Designer Developer Dayday](https://www.facebook.com/dddstudy/) 사이드 프로젝트 및 스터디 
-
+</div>
+</details>
 
 <details>
 <summary>2018 Community Activities</summary>
