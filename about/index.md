@@ -112,7 +112,10 @@ layout: page
   - [2019.04.25] [아이스크림 홈런 관측성 개선 세미나 - 레거시 관측성 올리기](https://festa.io/events/258)
   - [2019.04.17 ~ 18] [AWS Summit Seoul](https://aws.amazon.com/ko/events/summits/seoul/)
   - [2019.02.23] [KCD(Korea Community Day) 2019](https://festa.io/events/200)
-  
+- Lecture
+    - [2019.10.19, 10.26] [SpringRunner Mastering Spring Web 101 Workshop (5th)](https://springrunner.io/training/mastering-spring-web-101-workshop/)
+- Study
+    - CodeSpitz85 거침없는 자바스크립트
 - Other activities
   - [DDD - Designer Developer Dayday](https://www.facebook.com/dddstudy/) 사이드 프로젝트 및 스터디 
 </div>
