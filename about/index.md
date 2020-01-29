@@ -101,7 +101,10 @@ layout: page
 <div markdown="1">
 
 - Seminar
-  - [2019.09.26] [우아한 Tech 세미나: 우아한 스프링 배치](https://festa.io/events/359)
+  - [2019.11.21] [우아한 Tech 세미나: 우아한 Redis](https://www.youtube.com/watch?v=mPB2CZiAkKM)
+  - [2019.10.30] [아이스크림 에듀 - 기업부설연구소 공개 세미나](https://festa.io/events/630)
+  - [2019.10.29] [Deview 2019](https://deview.kr/2019)
+  - [2019.09.26] [우아한 Tech 세미나: 우아한 스프링 배치](https://www.youtube.com/watch?v=_nkJkWVH-mo)
   - [2019.09.25] [AWS 컨테이너 소모임: 촌스러운 CodeBuild, 세련되게 사용하기](https://www.meetup.com/ko-KR/awskrug/events/264425998/)
   - [2019.09.21] [99CON - 이력서](https://gwonsungjun.github.io/articles/2019-09/99con-resume)
   - [2019.09.07] [슬기로운 개발생활](https://event-us.kr/ted/event/9635)
@@ -112,10 +115,12 @@ layout: page
   - [2019.04.25] [아이스크림 홈런 관측성 개선 세미나 - 레거시 관측성 올리기](https://festa.io/events/258)
   - [2019.04.17 ~ 18] [AWS Summit Seoul](https://aws.amazon.com/ko/events/summits/seoul/)
   - [2019.02.23] [KCD(Korea Community Day) 2019](https://festa.io/events/200)
+
 - Lecture
-    - [2019.10.19, 10.26] [SpringRunner Mastering Spring Web 101 Workshop (5th)](https://springrunner.io/training/mastering-spring-web-101-workshop/)
-- Study
-    - CodeSpitz85 거침없는 자바스크립트
+    - [2019.11.19 ~ 12.17] [DDD 세레나데 - 우아한테크러닝](https://edu.nextstep.camp/c/GwN2MSqv/)
+    - [2019.10.22 ~ 11.26] [CodeSpitz85 거침없는 자바스크립트](https://www.youtube.com/watch?v=0NsJsBdYVHI&list=PLBNdLLaRx_rImvbuZnfO-Ecv9OpuCNoCl)
+    - [2019.10.19, 10.26] [SpringRunner Mastering Spring Web 101 Workshop (5th)](https://springrunner.io/training/mastering-spring-web-101-workshop/)    
+
 - Other activities
   - [DDD - Designer Developer Dayday](https://www.facebook.com/dddstudy/) 사이드 프로젝트 및 스터디 
 </div>
