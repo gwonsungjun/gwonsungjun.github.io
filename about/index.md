@@ -97,6 +97,16 @@ layout: page
 # Experiences
 
 <details>
+<summary style="text-decoration: underline;"> 👉🏼 2020 Community Activities </summary>
+<div markdown="1">
+
+- Seminar
+  - [2020.01.23] [우아한 Tech 세미나: 우아한 모노리스] 
+  
+</div>
+</details>
+
+<details>
 <summary style="text-decoration: underline;"> 👉🏼 2019 Community Activities </summary>
 <div markdown="1">
 
