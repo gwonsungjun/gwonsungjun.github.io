@@ -34,6 +34,7 @@ layout: page
     - Node.js
     - Express.js
     - Sequelize, Mongoose
+    - Jest
 - Database
   - MySQL / Oracle
   - MongoDB
@@ -44,7 +45,7 @@ layout: page
   - Ubuntu
   - Nginx
   - Docker
-  - Jenkins
+  - Travis CI, Jenkins
   - Git / Github / GitLab
   - IntelliJ / WebStorm / DataGrip / Vim / Visual Studio Code
 
@@ -72,11 +73,11 @@ layout: page
   - Development
       - Javascript
       - Node.js, Express.js, Sequelize, Mongoose
-      - Mysql, MongoDB, Elasticsearch
+      - MySQL, MongoDB, Elasticsearch
       - Travis CI, AWS codePipeline, Codecov
       - Docker
       - GitHub
-      - WebStorm, Intellij, DataGrip
+      - Intellij, WebStorm, DataGrip
       - AWS (ECS, Fargate, Lambda, ...)
   - Operation (log monitoring, troubleshooting)
 - 12cm laboratory, Back-end Developer (+ DevOps)
