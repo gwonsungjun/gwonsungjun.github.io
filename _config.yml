@@ -173,27 +173,27 @@ font:
   global:
     # external: true will load this font family from host.
     external: true
-    family: Spectral
+    family: Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800
     size: 16
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
   # Fallback to `global` font settings.
   headings:
     external: true
-    family: Spectral
+    family:
 
   # Font settings for posts
   # Fallback to `global` font settings.
   posts:
     external: true
-    family: Spectral
+    family:
 
   # Font settings for Logo
   # Fallback to `global` font settings.
   # The `size` option use `px` as unit
   logo:
     external: true
-    family: Spectral
+    family:
     size:
 
   # Font settings for <code> and code blocks.
