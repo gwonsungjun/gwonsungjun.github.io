@@ -67,7 +67,7 @@ $selection-color              : white;
 }
 
 // Font families.
-$font-family-chinese      : "Noto Serif KR";
+$font-family-chinese      : "Spectral", "Noto Serif KR";
 
 $font-family-base         : $font-family-chinese, serif;
 $font-family-base         : if(get_font_family('global'), (get_font_family('global'), $font-family-chinese, serif), $font-family-base);
@@ -100,9 +100,9 @@ $font-weight-bolder       : 700;
 // Font size
 $font-size-base           : 15px;
 $font-size-small          : $font-size-base - 2px;
-$font-size-smaller        : $font-size-base - 3px;
+$font-size-smaller        : $font-size-base - 2px;
 $font-size-large          : $font-size-base + 2px;
-$font-size-larger         : $font-size-base + 3px;
+$font-size-larger         : $font-size-base + 2px;
 
 
 // Headings font size
