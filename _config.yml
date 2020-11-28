@@ -186,7 +186,7 @@ font:
   # Fallback to `global` font settings.
   posts:
     external: true
-    family:
+    family: Spectral
 
   # Font settings for Logo
   # Fallback to `global` font settings.
