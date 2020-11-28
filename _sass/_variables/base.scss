@@ -67,7 +67,7 @@ $selection-color              : white;
 }
 
 // Font families.
-$font-family-chinese      : "Spectral", "Noto Serif KR";
+$font-family-chinese      : "Noto Serif KR", "serif";
 
 $font-family-base         : $font-family-chinese, serif;
 $font-family-base         : if(get_font_family('global'), (get_font_family('global'), $font-family-chinese, serif), $font-family-base);
