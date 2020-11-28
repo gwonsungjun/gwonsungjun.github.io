@@ -67,10 +67,10 @@ $selection-color              : white;
 }
 
 // Font families.
-$font-family-chinese      : "PingFang SC", "Microsoft YaHei";
+$font-family-chinese      : "Noto Serif KR";
 
-$font-family-base         : $font-family-chinese, sans-serif;
-$font-family-base         : if(get_font_family('global'), (get_font_family('global'), $font-family-chinese, sans-serif), $font-family-base);
+$font-family-base         : $font-family-chinese, serif;
+$font-family-base         : if(get_font_family('global'), (get_font_family('global'), $font-family-chinese, serif), $font-family-base);
 
 $font-family-logo         : $font-family-base;
 $font-family-logo         : if(get_font_family('logo'), (get_font_family('logo'), $font-family-base), $font-family-logo);
