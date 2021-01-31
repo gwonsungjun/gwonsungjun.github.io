@@ -14,8 +14,7 @@ layout: page
 If you hate a person, you hate something in him that is part of yourself. What isn't part of ourselves doesn't disturb us. - Hermann Hesse
 
 ### 일
-현재는 [서울스토어](https://www.seoulstore.com)에서 일하고 있습니다.   
-Kotlin과 JavaScript를 이용해 서버사이드 애플리케이션을 개발합니다. 
+현재는 [우아한형제들](https://www.woowahan.com)에서 서버 사이드 애플리케이션을 개발하고 있습니다.
 
 ### Contacts
 [GitHub](https://github.com/gwonsungjun)   
