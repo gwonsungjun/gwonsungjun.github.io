@@ -64,6 +64,6 @@ _ _ _
 Contacts
 =========
 - [GitHub](https://github.com/gwonsungjun)
-- [Twitter](https://twitter.com/kwen5600)
+- [Twitter](https://twitter.com/sungjunpizz)
 - [Mail](mailto:sungjunpizz@gmail)
 - [TIL](https://github.com/gwonsungjun/TIL)

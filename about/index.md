@@ -18,4 +18,4 @@ If you hate a person, you hate something in him that is part of yourself. What i
 
 ### Contacts
 [GitHub](https://github.com/gwonsungjun)   
-[Twitter](https://twitter.com/kwen5600)
+[Twitter](https://twitter.com/sungjunpizz)
