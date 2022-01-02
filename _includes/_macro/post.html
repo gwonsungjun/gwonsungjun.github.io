@@ -292,54 +292,54 @@
     </div>
     {% endif %}
 
-    {% if is_index %}
+<!--    {% if is_index %}
     {% if post.description and site.excerpt_description %}
     {% unless is_index %}
     {{ post.description }}
     {% endunless %}
-<!--
+&lt;!&ndash;
     &lt;!&ndash;noindex&ndash;&gt;
--->
-<!--    <div class="post-button text-center">
+&ndash;&gt;
+&lt;!&ndash;    <div class="post-button text-center">
         <a class="btn" href="{{ post.url | relative_url }}">
             {{ __.post.read_more }} &raquo;
         </a>
-    </div>-->
-<!--
+    </div>&ndash;&gt;
+&lt;!&ndash;
     &lt;!&ndash;/noindex&ndash;&gt;
--->
+&ndash;&gt;
     {% elsif post.excerpt %}
     {{ post.excerpt }}
-    <!--&lt;!&ndash;noindex&ndash;&gt;-->
-<!--    <div class="post-button text-center">
+    &lt;!&ndash;&lt;!&ndash;noindex&ndash;&gt;&ndash;&gt;
+&lt;!&ndash;    <div class="post-button text-center">
         <a class="btn" href="{{ post.url | relative_url }}{% if site.scroll_to_more %}#{{ __.post.more }}{% endif %}"
            rel="contents">
             {{ __.post.read_more }} &raquo;
         </a>
-    </div>-->
-    <!--&lt;!&ndash;/noindex&ndash;&gt;-->
+    </div>&ndash;&gt;
+    &lt;!&ndash;&lt;!&ndash;/noindex&ndash;&gt;&ndash;&gt;
     {% elsif site.auto_excerpt.enable %}
     {% assign content = post.content | strip_html %}
     {{ content | slice: 0, site.auto_excerpt.length }}
     {% if content.size > site.auto_excerpt.length %}...{% endif %}
-    <!--&lt;!&ndash;noindex&ndash;&gt;-->
-<!--    <div class="post-button text-center">
+    &lt;!&ndash;&lt;!&ndash;noindex&ndash;&gt;&ndash;&gt;
+&lt;!&ndash;    <div class="post-button text-center">
         <a class="btn" href="{{ post.url | relative_url }}{% if site.scroll_to_more %}#{{ __.post.more }}{% endif %}"
            rel="contents">
             {{ __.post.read_more }} &raquo;
         </a>
-    </div>-->
-    <!--&lt;!&ndash;/noindex&ndash;&gt;-->
+    </div>&ndash;&gt;
+    &lt;!&ndash;&lt;!&ndash;/noindex&ndash;&gt;&ndash;&gt;
     {% else %}
-    {% if post.type == 'picture' %}
+    {% if post.type == 'picture' %}-->
     <a href="{{ post.url | relative_url }}">{{ post.content }}</a>
-    {% else %}
+ <!--   {% else %}
     {{ post.content }}
     {% endif %}
     {% endif %}
-    {% else %}
+    {% else %}-->
     {{ post.content }}
-    {% endif %}
+    <!--{% endif %}-->
     </div>
 
     {% unless is_index %}
