@@ -362,6 +362,7 @@
     </div>
     {% endunless %}
 
+    {% unless is_index %}
     <footer class="post-footer">
         {% if post.tags and post.tags.size != 0 and is_index == nil or is_index == false %}
         <div class="post-tags">
@@ -430,7 +431,7 @@
         {% endif %}
         {% endunless %}
 
-        <!--{% if is_index %}
+        {% if is_index %}
         {% assign per_page = paginator.per_page | default: site.posts.size %}
         {% assign index_modulo_per_page = forloop.index | modulo: per_page %}
         {% if index_modulo_per_page == 0 %}
@@ -439,6 +440,7 @@
         {% unless isLast %}
         <div class="post-eof"></div>
         {% endunless %}
-        {% endif %}-->
+        {% endif %}
     </footer>
+    {% endunless %}
 </article>
