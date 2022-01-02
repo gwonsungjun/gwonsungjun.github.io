@@ -2,7 +2,7 @@
   <article class="post post-type-{{ post.type | default: 'normal' }}" itemscope itemtype="http://schema.org/Article" {% if route %}route="{{ route }}"{% endif %}>
     <header class="post-header">
 
-      <{% if site.seo %}h3{% else %}h2{% endif %} class="post-title">
+      <{% if site.seo %}h3{% endif %} class="post-title">
         {% if post.link %}{% comment %} Link posts {% endcomment %}
           <a class="post-title-link post-title-link-external" target="_blank" href="{{ post.link }}" itemprop="url">
             {{ post.title | default: post.link }}
