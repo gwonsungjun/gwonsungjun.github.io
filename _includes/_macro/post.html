@@ -294,7 +294,9 @@
 
     {% if is_index %}
     {% if post.description and site.excerpt_description %}
+    {% unless is_index %}
     {{ post.description }}
+    {% endunless %}
 <!--
     &lt;!&ndash;noindex&ndash;&gt;
 -->
