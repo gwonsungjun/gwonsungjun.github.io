@@ -29,7 +29,7 @@
 
         {% comment %} % Not to show title for quote posts that do not have a title {% endcomment %}
         {% unless is_index and post.type == 'quote' and post.title == nil %}
-        <{% if site.seo %}h2{% else %}h1{% endif %} class="post-title" itemprop="name headline">
+        <{% if site.seo %}h2{% endif %} class="post-title" itemprop="name headline">
         {% comment %} Link posts {% endcomment %}
         {% if post.link %}
         {% if post.sticky > 0 %}
@@ -251,7 +251,7 @@
             </div>
           {% endif %}
 
-          {% unless site.excerpt_description and is_index %}
+          {% unless site.excerpt_description %}
             {% if site.description %}
                 <div class="post-description">
                     {{ post.description }}
@@ -294,7 +294,7 @@
 
     {% if is_index %}
     {% if post.description and site.excerpt_description %}
-    <!--{{ post.description }}-->
+    {{ post.description }}
 <!--
     &lt;!&ndash;noindex&ndash;&gt;
 -->
