@@ -263,6 +263,7 @@
     </header>
     {% endunless %}
 
+    {% unless is_index %}
     <div class="post-body{% if site.han %} han-init-context{% endif %}" itemprop="articleBody">
 
         {% comment %} Gallery support {% endcomment %}
@@ -341,6 +342,7 @@
     {{ post.content }}
     <!--{% endif %}-->
     </div>
+    {% endunless %}
 
     {% unless is_index %}
     <div>
