@@ -29,7 +29,7 @@
 
         {% comment %} % Not to show title for quote posts that do not have a title {% endcomment %}
         {% unless is_index and post.type == 'quote' and post.title == nil %}
-        <{% if site.seo %}h2{% endif %} class="post-title" itemprop="name headline">
+        <{% if site.seo %}h2{% else %}h6{% endif %} class="post-title" itemprop="name headline">
         {% comment %} Link posts {% endcomment %}
         {% if post.link %}
         {% if post.sticky > 0 %}
