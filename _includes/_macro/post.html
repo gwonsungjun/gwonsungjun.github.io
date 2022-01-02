@@ -91,6 +91,7 @@
             {% endif %}
           </span>
 
+        {% unless is_index %}
         {% if post.categories and post.categories.size > 0 and site.post_meta.categories %}
         <span class="post-category">
             {% if site.post_meta.created_at or site.post_meta.updated_at %}
@@ -116,6 +117,16 @@
                 {% endif %}
               {% endfor %}
             </span>
+        {% endif %}
+        {% endunless %}
+
+        {% if is_index %}
+        <div class="post-tags">
+            {% for tag in post.tags %}
+            {% assign tag_url_encode = tag | url_encode | replace: '+', '%20' %}
+            <a href="{{ '/tag/#/' | relative_url | append: tag_url_encode }}" rel="tag"># {{ tag }}</a>
+            {% endfor %}
+        </div>
         {% endif %}
 
         {% if post.comments %}
