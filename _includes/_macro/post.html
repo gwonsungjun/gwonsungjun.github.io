@@ -340,6 +340,7 @@
     {% endif %}
     </div>
 
+    {% unless is_index %}
     <div>
         {% unless is_index %}
         {% include _macro/wechat-subscriber.html %}
@@ -357,6 +358,7 @@
         {% include _macro/post-copyright.html %}
         {% endunless %}
     </div>
+    {% endunless %}
 
     <footer class="post-footer">
         {% if post.tags and post.tags.size != 0 and is_index == nil or is_index == false %}
