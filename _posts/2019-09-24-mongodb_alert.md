@@ -7,6 +7,10 @@ subtitle:  MongoDb Scanned Objects ALERT을 해결해보자
 author : sungjun
 ---
 
+MongoDb Scanned Objects ALERT을 해결해보자 
+
+---
+
 4월 이후에 정말 오랜만에 블로깅을 한다.   
 그동안 많은 변화가 있어서 적응하느라 블로깅을 못 했는데(변명이지만...) 이제 좀 적응되어 그동안 쌓아왔던 이슈들을 하나씩 풀어보려 한다.
    

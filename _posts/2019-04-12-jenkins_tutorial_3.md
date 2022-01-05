@@ -7,6 +7,10 @@ subtitle: AWS EC2 Instance 생성
 author : sungjun
 ---
 
+AWS EC2 Instance 생성 
+
+---
+
 이번 시간에는 배포할 서버를 AWS EC2로 생성해보겠습니다.
 
 ## Contents

@@ -5,6 +5,7 @@ tags : jenkins
 category: jenkins
 subtitle: Ubuntu 16.04 Jenkins Installation process
 author : sungjun
+published : false
 ---
 
 **Ubuntu 16.04 Jenkins Installation process** 

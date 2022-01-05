@@ -7,6 +7,10 @@ subtitle: 젠킨스, 깃랩 초기 설정
 author : sungjun
 ---
 
+젠킨스, 깃랩 초기 설정 
+
+---
+
 지난 [1편](https://gwonsungjun.github.io/articles/2019-04/jenkins_tutorial_1)에서 젠킨스와 깃랩을 설치해보았습니다.      
 이번 시간에는 젠킨스와 깃랩의 기본 설정 작업을 진행해보도록 하겠습니다. 
 
