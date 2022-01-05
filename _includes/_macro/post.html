@@ -87,7 +87,8 @@
               <time title="{{ __.post.modified }}" itemprop="dateModified"
                     datetime="{{ post.updated | date: site.date_format }}">
                 {{ post.updated | date: site.date_format }}
-              </time>
+              </ti
+
             {% endif %}
 
           {% if is_index %}
@@ -272,7 +273,6 @@
     </header>
     {% endunless %}
 
-    {% unless is_index %}
     <div class="post-body{% if site.han %} han-init-context{% endif %}" itemprop="articleBody">
 
         {% comment %} Gallery support {% endcomment %}
@@ -371,7 +371,6 @@
         {% include _macro/post-copyright.html %}
         {% endunless %}
     </div>
-    {% endunless %}
 
     {% unless is_index %}
     <footer class="post-footer">
