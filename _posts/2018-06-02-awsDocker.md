@@ -7,7 +7,7 @@ subtitle: 모두의 Docker에서 진행 했던 실습 내용 공유
 author : sungjun
 ---
 
-**AWSKRUG Container Hands-On #1 - 모두의 Docker에서 진행 했던 실습 내용 공유** 
+AWSKRUG Container Hands-On #1 - 모두의 Docker에서 진행 했던 실습 내용 공유 
 
 ---
 
