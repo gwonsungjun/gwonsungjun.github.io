@@ -7,10 +7,6 @@ subtitle: 도커를 이용해 젠킨스, 깃랩 설치하기.
 author : sungjun
 ---
 
-**도커 컴포즈를 이용해 젠킨스, 깃랩 설치하기.** 
-
----
-
 이번 시리즈 글은 수많은 삽질을 통해 젠킨스를 사내에 구축하며 얻은 유용한 팁을 젠킨스를 처음 접하는 분들께 도움이 되고자 작성하게 되었습니다.   
 Tutorial은 블로그에 단계별로 나눠 포스팅할 예정이고 pipeline script 외 기타 필요한 코드들을 [GitHub Repo](https://github.com/gwonsungjun/jenkins_tutorial)에 커밋할 것입니다.   
 Git Hosting service는 깃헙이 아닌 깃랩을 직접 설치해서 사용할 것입니다. (깃헙과 깃랩은 거의 유사하기 때문에 필요한 호스팅 서비스를 사용하면 될 것 같습니다.)

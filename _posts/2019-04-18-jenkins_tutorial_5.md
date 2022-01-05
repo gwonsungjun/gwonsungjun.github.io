@@ -7,10 +7,6 @@ subtitle:  Jenkins pipeline을 이용해 아이템 등록 하기
 author : sungjun
 ---
 
-**Jenkins pipeline을 이용해 아이템 등록 하기.** 
-
----
-
 이번 시간에는 Jenkins Web UI가 아닌 Jenkins pipeline을 이용해서 item을 등록해보도록 하겠습니다.   
 전체적인 흐름은 저번 시간과 같습니다. 참고해주시기 바랍니다.
 

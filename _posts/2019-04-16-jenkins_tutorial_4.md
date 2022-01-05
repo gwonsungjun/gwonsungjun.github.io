@@ -7,10 +7,6 @@ subtitle:  Jenkins UI를 이용해 아이템 등록 하기
 author : sungjun
 ---
 
-**Jenkins UI를 이용해 아이템 등록 하기.** 
-
----
-
 이번 시간에는 Jenkins Web UI를 이용해서 실제 item을 등록해보도록 하겠습니다.   
 전체적인 흐름은 다음과 같습니다. 참고해주시기 바랍니다.
 

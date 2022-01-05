@@ -7,10 +7,6 @@ subtitle: Gradle Multi Module Project 구성 방법을 알아본다.
 author : sungjun
 ---
 
-**Gradle Multi Module Project 구성 방법을 알아본다.** 
-
----
-
 ## 환경
 
 spring boot 버전별로 설정 시 약간의 차이가 있으므로 주의.
