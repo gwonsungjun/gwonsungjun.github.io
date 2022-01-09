@@ -20,7 +20,7 @@
   .post-title {
     position: relative;
     font-size: $font-size-headings-base;
-    font-weight: 600;
+    font-weight: 500;
     @include mobile() { font-size: $font-size-headings-smaller; }
     @include desktop-large() { font-size: $font-size-headings-large; }
   }
