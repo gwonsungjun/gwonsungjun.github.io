@@ -31,11 +31,11 @@ $(document).ready(function () {
 
 
   // Define Motion Sequence.
- /* NexT.motion.integrator
+  NexT.motion.integrator
     .add(NexT.motion.middleWares.logo)
     .add(NexT.motion.middleWares.menu)
     .add(NexT.motion.middleWares.postList)
-    .add(NexT.motion.middleWares.sidebar);*/
+    .add(NexT.motion.middleWares.sidebar);
 
   $(document).trigger('motion:before');
 
