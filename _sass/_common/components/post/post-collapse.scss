@@ -57,7 +57,7 @@
 
   .post-header {
     position: relative;
-    @include the-transition();
+    //@include the-transition();
     transition-property: border;
     border-bottom: 1px dashed $grey-light;
 

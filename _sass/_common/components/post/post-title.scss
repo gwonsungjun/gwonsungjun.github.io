@@ -26,7 +26,7 @@
     background-color: #000;
     visibility: hidden;
     @include transform(scaleX(0));
-    @include the-transition();
+    //@include the-transition();
   }
 
   &:hover::before {

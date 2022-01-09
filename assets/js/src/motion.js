@@ -265,8 +265,7 @@ $(document).ready(function () {
       var $post = $('.post');
       var hasPost = $post.size() > 0;
 
-      //hasPost ? postMotion() : integrator.next();
-      integrator.next();
+      hasPost ? postMotion() : integrator.next();
 
       function postMotion () {
         var postMotionOptions = window.postMotionOptions || {
